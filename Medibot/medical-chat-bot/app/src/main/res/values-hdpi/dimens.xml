@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_health_start">16dp</dimen>
+    <dimen name="padding_health_end">1dp</dimen>
+    <dimen name="padding_symptoms_start">16dp</dimen>
+    <dimen name="padding_symptoms_end">34dp</dimen>
+    <dimen name="padding_utilities_start">16dp</dimen>
+    <dimen name="padding_utilities_end">112dp</dimen>
+    <dimen name="padding_settings_start">16dp</dimen>
+    <dimen name="padding_settings_end">32dp</dimen>
+</resources>

@@ -1,0 +1,3 @@
+download 2 pre-trained files for semantic vectors:
+1. glove: glove.6B.50d.txt
+2. word2vec: GoogleNews-vectors-negative300.bin

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.healthnavigatorapis.portal.chatbot.ui.sign.in.SignInViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/signInLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/signInEmail"
+            android:layout_width="@dimen/sign_in_width"
+            android:layout_height="@dimen/sign_in_height"
+            android:background="@drawable/border_login"
+            android:ellipsize="end"
+            android:hint="@string/sign_in_email_hint"
+            android:inputType="text"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingStart="@dimen/sign_in_padding_text"
+            android:paddingEnd="@dimen/sign_in_padding_text"
+            android:singleLine="true"
+            android:text="@={viewModel.loginField}"
+            android:textSize="@dimen/sign_in_size"
+            app:layout_constraintBottom_toTopOf="@+id/signInPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/signInPassword"
+            android:layout_width="@dimen/sign_in_width"
+            android:layout_height="@dimen/sign_in_height"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border_login"
+            android:ellipsize="end"
+            android:hint="@string/sign_in_password_hint"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingStart="@dimen/sign_in_padding_text"
+            android:paddingEnd="@dimen/sign_in_padding_text"
+            android:singleLine="true"
+            android:text="@={viewModel.passwordField}"
+            android:textSize="@dimen/sign_in_size"
+            app:layout_constraintBottom_toTopOf="@+id/signInShowPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signInEmail" />
+
+        <androidx.appcompat.widget.AppCompatCheckBox
+            android:id="@+id/signInShowPassword"
+            android:layout_width="@dimen/sign_in_width"
+            android:layout_height="@dimen/sign_in_height"
+            android:layout_marginTop="8dp"
+            android:text="@string/sign_in_show_password"
+            app:layout_constraintBottom_toTopOf="@+id/signInConfirm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signInPassword" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/signInConfirm"
+            android:layout_width="@dimen/sign_in_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border_login"
+            android:backgroundTint="@color/colorSignInButton"
+            android:onClick="@{() -> viewModel.onSubmit()}"
+            android:text="@string/sign_in_button"
+            android:textAllCaps="false"
+            app:cornerRadius="32dp"
+            app:layout_constraintBottom_toTopOf="@+id/signInForgotPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signInShowPassword" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/signInForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:onClick="@{() -> viewModel.onForgotPassword()}"
+            android:text="@string/sign_in_forgot"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/signInConfirm"
+            app:layout_constraintHorizontal_bias="1"
+            app:layout_constraintStart_toStartOf="@+id/signInConfirm"
+            app:layout_constraintTop_toBottomOf="@+id/signInConfirm" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

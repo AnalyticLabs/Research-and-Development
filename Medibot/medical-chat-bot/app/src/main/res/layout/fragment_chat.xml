@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewModel"
+            type="com.healthnavigatorapis.portal.chatbot.ui.chat.ChatViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/chatLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/chatBack"
+            android:layout_width="@dimen/chat_back_size"
+            android:layout_height="@dimen/chat_back_size"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/ic_back"
+            android:onClick="@{() -> viewModel.onBackPressed()}"
+            app:layout_constraintBottom_toBottomOf="@+id/chatTitle"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/chatTitle" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/chatTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chat_title"
+            android:textColor="@android:color/black"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/chatRefresh"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/ic_refresh"
+            android:onClick="@{() -> viewModel.onRefreshPressed()}"
+            app:layout_constraintBottom_toBottomOf="@+id/chatTitle"
+            app:layout_constraintEnd_toStartOf="@+id/chatHelp"
+            app:layout_constraintTop_toTopOf="@+id/chatTitle" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/chatHelp"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_info"
+            android:backgroundTint="@color/colorIconChat"
+            android:onClick="@{() -> viewModel.onHelpPressed()}"
+            app:layout_constraintBottom_toBottomOf="@+id/chatTitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/chatTitle" />
+
+        <View
+            android:id="@+id/chatActionBar"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="?actionBarSize"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/chatContent"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/chatBottomBarrier"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/chatActionBar" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/chatBottomBarrier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:barrierDirection="top"
+            app:constraint_referenced_ids="chatInputVoice,chatArrow,chatSendText,chatInputText" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/chatInputText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/border_input_chat"
+            android:enabled="@{viewModel.isMultiChoices ? false : true}"
+            android:hint="@string/chat_input_hint"
+            android:singleLine="true"
+            android:text="@={viewModel.textField}"
+            android:visibility="@{viewModel.isShowInput ? View.VISIBLE : View.GONE}"
+            app:layout_constraintBottom_toTopOf="@+id/chatInputVoice"
+            app:layout_constraintEnd_toStartOf="@+id/chatSendText"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/chatSendText"
+            android:layout_width="34dp"
+            android:layout_height="0dp"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/ic_send"
+            android:enabled="@{viewModel.isMultiChoices ? false : true}"
+            android:onClick="@{() -> viewModel.onSendMessage()}"
+            android:visibility="@{viewModel.isShowInput ? View.VISIBLE : View.GONE}"
+            app:layout_constraintBottom_toBottomOf="@+id/chatInputText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/chatInputText" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/chatInputVoice"
+            android:layout_width="@dimen/logo_bottom_size"
+            android:layout_height="@dimen/logo_bottom_size"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/ic_logo_circle"
+            android:enabled="@{viewModel.isMultiChoices ? false : true}"
+            android:onClick="@{() -> viewModel.onVoiceRecognition()}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/chatArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@{viewModel.isShowInput ? @drawable/ic_arrow_upward : @drawable/ic_arrow_downward}"
+            android:onClick="@{() -> viewModel.onArrowClicked()}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

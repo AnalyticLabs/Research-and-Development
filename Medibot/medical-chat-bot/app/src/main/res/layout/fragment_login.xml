@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.healthnavigatorapis.portal.chatbot.ui.login.LoginViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/loginLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/loginLogo"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="32dp"
+            android:src="@drawable/ic_logo"
+            app:layout_constraintBottom_toTopOf="@+id/loginSingIn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/loginSingIn"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/login_button_height"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/colorSignInButton"
+            android:onClick="@{() -> viewModel.onSingIn()}"
+            android:text="@string/login_sign_in"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            app:cornerRadius="@dimen/login_button_corner_radius"
+            app:layout_constraintBottom_toTopOf="@+id/loginSignUp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginLogo"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/loginSignUp"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/login_button_height"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="@color/colorSignUpButton"
+            android:onClick="@{() -> viewModel.onSignUp()}"
+            android:text="@string/login_sign_up"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            app:cornerRadius="@dimen/login_button_corner_radius"
+            app:layout_constraintBottom_toTopOf="@+id/loginFacebook"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginSingIn" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/loginFacebook"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="64dp"
+            android:backgroundTint="@color/colorFacebookButton"
+            android:onClick="@{() -> viewModel.onSignFacebook()}"
+            android:text="@string/login_facebook"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:cornerRadius="@dimen/login_button_corner_radius"
+            app:icon="@drawable/ic_facebook"
+            app:iconGravity="textStart"
+            app:iconSize="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/loginGoogle"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginSignUp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/loginGoogle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/border_login"
+            android:backgroundTint="@color/colorGoogleButton"
+            android:onClick="@{() -> viewModel.onSignGoogle()}"
+            android:text="@string/login_google"
+            android:textAllCaps="false"
+            android:textSize="12sp"
+            app:cornerRadius="@dimen/login_button_corner_radius"
+            app:icon="@drawable/ic_google_plus"
+            app:iconGravity="textStart"
+            app:iconSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/loginFacebook"
+            app:layout_constraintTop_toTopOf="@+id/loginFacebook" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

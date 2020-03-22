@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="viewModel"
+            type="com.healthnavigatorapis.portal.chatbot.ui.sign.up.SignUpViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/signUpLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/signUpName"
+            android:layout_width="@dimen/sign_in_width"
+            android:layout_height="@dimen/sign_in_height"
+            android:background="@drawable/border_login"
+            android:ellipsize="end"
+            android:hint="@string/sign_up_name"
+            android:inputType="textPersonName"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingStart="@dimen/sign_in_padding_text"
+            android:paddingEnd="@dimen/sign_in_padding_text"
+            android:singleLine="true"
+            android:text="@={viewModel.nameField}"
+            android:textSize="@dimen/sign_in_size"
+            app:layout_constraintBottom_toTopOf="@+id/signUpEmail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/signUpEmail"
+            android:layout_width="@dimen/sign_in_width"
+            android:layout_height="@dimen/sign_in_height"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border_login"
+            android:ellipsize="end"
+            android:hint="@string/sign_up_email"
+            android:inputType="textEmailAddress"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingStart="@dimen/sign_in_padding_text"
+            android:paddingEnd="@dimen/sign_in_padding_text"
+            android:singleLine="true"
+            android:text="@={viewModel.emailField}"
+            android:textSize="@dimen/sign_in_size"
+            app:layout_constraintBottom_toTopOf="@+id/signUpPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signUpName"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/signUpPassword"
+            android:layout_width="@dimen/sign_in_width"
+            android:layout_height="@dimen/sign_in_height"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border_login"
+            android:ellipsize="end"
+            android:hint="@string/sign_up_password"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingStart="@dimen/sign_in_padding_text"
+            android:paddingEnd="@dimen/sign_in_padding_text"
+            android:singleLine="true"
+            android:text="@={viewModel.passwordField}"
+            android:textSize="@dimen/sign_in_size"
+            app:layout_constraintBottom_toTopOf="@+id/signUpConfirmPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signUpEmail" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/signUpConfirmPassword"
+            android:layout_width="@dimen/sign_in_width"
+            android:layout_height="@dimen/sign_in_height"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border_login"
+            android:ellipsize="end"
+            android:hint="@string/sign_up_confirm_password"
+            android:inputType="textPassword"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingStart="@dimen/sign_in_padding_text"
+            android:paddingEnd="@dimen/sign_in_padding_text"
+            android:singleLine="true"
+            android:text="@={viewModel.confirmPasswordField}"
+            android:textSize="@dimen/sign_in_size"
+            app:layout_constraintBottom_toTopOf="@+id/signUpConfirm"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signUpPassword" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/signUpConfirm"
+            android:layout_width="@dimen/sign_in_width"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/border_login"
+            android:backgroundTint="@color/colorSignUpButton"
+            android:onClick="@{() -> viewModel.onSignUp()}"
+            android:text="@string/sign_up_button"
+            android:textAllCaps="false"
+            app:cornerRadius="32dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/signUpConfirmPassword" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#fafafa</color>
+    <color name="colorAccent">#304ffe</color>
+
+    <color name="colorBackground">#fafafa</color>
+    <color name="colorSplashButton">#009688</color>
+    <color name="colorSplashTitle">#1aa56b</color>
+    <color name="colorSignInButton">#54b5e2</color>
+    <color name="colorSignUpButton">#cc0202</color>
+    <color name="colorFacebookButton">#3c5a99</color>
+    <color name="colorGoogleButton">#d34937</color>
+
+    <color name="colorBorderLeftChat">#29567f</color>
+    <color name="colorBackgroundLeftChat">#deebf7</color>
+    <color name="colorBorderRightChat">#c71c1a</color>
+    <color name="colorBackgroundRightChat">#fbe5d6</color>
+    <color name="colorIconChat">#a4a4a4</color>
+    <color name="colorButton">#def7f0</color>
+    <color name="colorButtonSelector">#dff7de</color>
+
+</resources>

@@ -1,0 +1,2433 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" />
+<meta itemprop="acquia_lift:content_title" content="Stocks" />
+<meta itemprop="acquia_lift:content_type" content="symbol_screener" />
+<meta itemprop="acquia_lift:page_type" content="node page" />
+<meta itemprop="acquia_lift:context_language" content="en" />
+<meta itemprop="acquia_lift:content_section" content="market-activity/stocks" />
+<meta itemprop="acquia_lift:content_keywords" content="" />
+<meta itemprop="acquia_lift:post_id" content="46" />
+<meta itemprop="acquia_lift:content_uuid" content="ca7bef48-c67d-47d6-bcbd-35336ebcbe5b" />
+<meta itemprop="acquia_lift:published_date" content="1549939502" />
+<meta itemprop="acquia_lift:persona" content="" />
+<meta itemprop="acquia_lift:engagement_score" content="1" />
+<meta itemprop="acquia_lift:account_id" content="NASDAQ" />
+<meta itemprop="acquia_lift:site_id" content="nasdaq_prod" />
+<meta itemprop="acquia_lift:contentOrigin" content="" />
+<meta itemprop="acquia_lift:liftAssetsURL" content="https://lift3assets.lift.acquia.com/stable" />
+<meta itemprop="acquia_lift:liftDecisionAPIURL" content="https://us-east-1-decisionapi.lift.acquia.com" />
+<meta itemprop="acquia_lift:authEndpoint" content="https://us-east-1-oauth2.lift.acquia.com/authorize" />
+<meta itemprop="acquia_lift:bootstrapMode" content="auto" />
+<meta itemprop="acquia_lift:contentReplacementMode" content="untrusted" />
+<script src="https://lift3assets.lift.acquia.com/stable/lift.js" async></script>
+<script>window.digitalData = {"pageInstanceID":"production:home:market-activity:stocks:screener","page":{"pageInfo":{"author":null,"breadcrumbs":["home","market-activity","stocks","screener"],"destinationURL":"https:\/\/www.nasdaq.com\/market-activity\/stocks\/screener","entryURL":null,"onsiteSearchResults":null,"onsiteSearchTerm":null,"pageID":"home:market-activity:stocks:screener","pageName":"screener","pagePathLevel1":"market-activity","pagePathLevel2":"market-activity:stocks","pagePathLevel3":"market-activity:stocks:screener","pagePathLevel4":null,"pagePathLevel5":null,"publisher":null,"referringURL":null,"sysEnv":null,"timeStamp":1573973259},"category":{"eventType":null,"pageType":"symbol-screener-page","videoType":null,"primaryCategory":"market-activity","subCategory":"stocks"},"attributes":{"adDisplay":false,"assetClass":null,"businessUnit":null,"campaignParameters":null,"industry":null,"quoteSymbol":null,"region":null,"sponsored":false,"topic":null,"audience":null,"glossaryTerm":null}},"user":[{"segment":{"loginStatus":"guest","registrationStatus":"anonymous","cookieOptIn":true,"termsOptIn":false,"offersOptIn":false,"eloquaOptIn":false}}]};</script>
+<meta name="title" content="Stock Screener - Free Stock Market Screeners | Nasdaq" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="canonical" href="https://www.nasdaq.com/market-activity/stocks/screener" />
+<meta name="twitter:title" content="Stocks" />
+<meta name="twitter:site" content="@Nasdaq" />
+<meta property="og:type" content="Symbol Screener" />
+<meta name="description" content="Nasdaq offers a free stock market screener to search and screen stocks by criteria including share data, technical analysis, ratios &amp; more." />
+<meta name="twitter:site:id" content="nasdaq" />
+<meta property="og:url" content="https://www.nasdaq.com/market-activity/stocks/screener" />
+<meta property="og:title" content="Stocks" />
+<meta name="twitter:url" content="https://www.nasdaq.com/market-activity/stocks/screener" />
+<meta name="twitter:image" content="https://www.nasdaq.com/sites/acquia.prod/files/2019-05/0902-Q19%20Total%20Markets%20photos%20and%20gif_CC8.jpg" />
+<meta property="og:image" content="https://www.nasdaq.com/sites/acquia.prod/files/2019-05/0902-Q19%20Total%20Markets%20photos%20and%20gif_CC8.jpg" />
+<meta name="com.nasdaq.cms.taxonomy.pageType" content="symbol-screener-page" />
+<meta name="Generator" content="Drupal 8 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script>function euCookieComplianceLoadScripts() {}</script>
+<style></style>
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Corporation",
+            "@id": "https://www.nasdaq.com/",
+            "name": "Nasdaq",
+            "url": "https://www.nasdaq.com/",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://www.nasdaq.com/themes/nsdq/dist/assets/images/logo-half-white.svg"
+            }
+        },
+        {
+            "@type": "WebPage",
+            "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://www.nasdaq.com/"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Market Activity",
+                        "item": "https://www.nasdaq.com/market-activity"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "Stocks",
+                        "item": "https://www.nasdaq.com/market-activity/stocks"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 4,
+                        "item": {
+                            "@id": "https://www.nasdaq.com/market-activity/stocks/screener",
+                            "name": "Stocks",
+                            "url": "https://www.nasdaq.com/market-activity/stocks/screener"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "@type": "WebSite",
+            "name": "Nasdaq",
+            "url": "https://www.nasdaq.com/",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "query-input": "required name=search_term_string",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://www.nasdaq.com/search?q={search_term_string}"
+                }
+            }
+        }
+    ]
+}</script>
+
+<!-- Load the Index Exchange JavaScript Library -->
+<script async src="//js-sec.indexww.com/ht/p/183702-142296045723403.js"></script>
+
+<script async src="//www.googletagservices.com/tag/js/gpt.js"></script>
+<script type="text/javascript">
+// Initialize the google variables.
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+// Add a place to store the slot name variable.
+googletag.slots = googletag.slots || {};
+// Add a place to store slots that are queued/observed
+// These are slots that we already stored but waiting to be fetched
+googletag.slotsQueued = googletag.slotsQueued || {};
+</script>
+
+<script type="text/javascript">
+//Load the APS JavaScript Library
+!function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js");
+
+//Initialize the Library
+apstag.init({
+    pubID: '3444',
+    adServer: 'googletag',
+    bidTimeout: 800
+});
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+            // Start by defining breakpoints for this ad.
+        var mapping = googletag.sizeMapping()
+                  .addSize([0, 0], [])
+                  .addSize([1200, 0], [[1, 1], [120, 60]])
+                .build();
+    
+    googletag.slots["js-dfp-tag-6pc"] = googletag.defineSlot("/3244/market-activity__stocks/BTF_FeaturedSymbol3Up_3", [[1, 1], [120, 60]], "js-dfp-tag-6pc")
+
+        .addService(googletag.pubads())
+
+    
+    
+    
+              // Apply size mapping when there are breakpoints.
+      .defineSizeMapping(mapping)
+        ;
+  });
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+            // Start by defining breakpoints for this ad.
+        var mapping = googletag.sizeMapping()
+                  .addSize([0, 0], [])
+                  .addSize([1200, 0], [[1, 1], [120, 60]])
+                .build();
+    
+    googletag.slots["js-dfp-tag-4jg"] = googletag.defineSlot("/3244/market-activity__stocks/BTF_FeaturedSymbol3Up_2", [[1, 1], [120, 60]], "js-dfp-tag-4jg")
+
+        .addService(googletag.pubads())
+
+    
+    
+    
+              // Apply size mapping when there are breakpoints.
+      .defineSizeMapping(mapping)
+        ;
+  });
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+            // Start by defining breakpoints for this ad.
+        var mapping = googletag.sizeMapping()
+                  .addSize([0, 0], [])
+                  .addSize([1200, 0], [[1, 1], [120, 60]])
+                .build();
+    
+    googletag.slots["js-dfp-tag-Sps"] = googletag.defineSlot("/3244/market-activity__stocks/BTF_FeaturedSymbol3Up_1", [[1, 1], [120, 60]], "js-dfp-tag-Sps")
+
+        .addService(googletag.pubads())
+
+    
+    
+    
+              // Apply size mapping when there are breakpoints.
+      .defineSizeMapping(mapping)
+        ;
+  });
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+            // Start by defining breakpoints for this ad.
+        var mapping = googletag.sizeMapping()
+                  .addSize([0, 0], [[1, 1], [300, 250]])
+                  .addSize([1024, 0], [[1, 1], [300, 250], [728, 90], [970, 250]])
+                  .addSize([1200, 0], [[1, 1], [728, 90], [970, 250], [1200, 628]])
+                .build();
+    
+    googletag.slots["js-dfp-tag-0qk"] = googletag.defineSlot("/3244/market-activity__stocks/BTF_MidPageFullWidth", [[1, 1], [300, 250], [728, 90], [970, 250], [1200, 628]], "js-dfp-tag-0qk")
+
+        .addService(googletag.pubads())
+
+    
+    
+    
+              // Apply size mapping when there are breakpoints.
+      .defineSizeMapping(mapping)
+        ;
+  });
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+            // Start by defining breakpoints for this ad.
+        var mapping = googletag.sizeMapping()
+                  .addSize([1200, 0], [[300, 250], [300, 600]])
+                  .addSize([0, 0], [])
+                .build();
+    
+    googletag.slots["js-dfp-tag-8tU"] = googletag.defineSlot("/3244/market-activity__stocks/ATF_RightRailBox", [[300, 250], [300, 600]], "js-dfp-tag-8tU")
+
+        .addService(googletag.pubads())
+
+    
+    
+    
+              // Apply size mapping when there are breakpoints.
+      .defineSizeMapping(mapping)
+        ;
+  });
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+            // Start by defining breakpoints for this ad.
+        var mapping = googletag.sizeMapping()
+                  .addSize([0, 0], [[1, 1], [320, 50]])
+                  .addSize([768, 0], [728, 90])
+                  .addSize([1200, 0], [])
+                .build();
+    
+    googletag.slots["js-dfp-tag-TO4"] = googletag.defineSlot("/3244/market-activity__stocks/ATF_Leaderboard_Mobile_Tablet", [[1, 1], [320, 50], [728, 90]], "js-dfp-tag-TO4")
+
+        .addService(googletag.pubads())
+
+    
+    
+    
+              // Apply size mapping when there are breakpoints.
+      .defineSizeMapping(mapping)
+        ;
+  });
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+            // Start by defining breakpoints for this ad.
+        var mapping = googletag.sizeMapping()
+                  .addSize([0, 0], [1, 1])
+                  .addSize([768, 0], [1, 1])
+                  .addSize([1200, 0], [1, 1])
+                .build();
+    
+    googletag.slots["js-dfp-tag-sIQ"] = googletag.defineSlot("/3244/market-activity__stocks/ATF_Pixel_3", [1, 1], "js-dfp-tag-sIQ")
+
+        .addService(googletag.pubads())
+
+    
+    
+    
+              // Apply size mapping when there are breakpoints.
+      .defineSizeMapping(mapping)
+        ;
+  });
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+            // Start by defining breakpoints for this ad.
+        var mapping = googletag.sizeMapping()
+                  .addSize([0, 0], [1, 1])
+                  .addSize([768, 0], [1, 1])
+                  .addSize([1200, 0], [1, 1])
+                .build();
+    
+    googletag.slots["js-dfp-tag-Oyg"] = googletag.defineSlot("/3244/market-activity__stocks/ATF_Pixel_2", [1, 1], "js-dfp-tag-Oyg")
+
+        .addService(googletag.pubads())
+
+    
+    
+    
+              // Apply size mapping when there are breakpoints.
+      .defineSizeMapping(mapping)
+        ;
+  });
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+            // Start by defining breakpoints for this ad.
+        var mapping = googletag.sizeMapping()
+                  .addSize([0, 0], [1, 1])
+                  .addSize([768, 0], [1, 1])
+                  .addSize([1200, 0], [1, 1])
+                .build();
+    
+    googletag.slots["js-dfp-tag-DAA"] = googletag.defineSlot("/3244/market-activity__stocks/ATF_Pixel_1", [1, 1], "js-dfp-tag-DAA")
+
+        .addService(googletag.pubads())
+
+    
+    
+    
+              // Apply size mapping when there are breakpoints.
+      .defineSizeMapping(mapping)
+        ;
+  });
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+    
+    googletag.slots["js-dfp-tag-ZvY"] = googletag.defineSlot("/3244/market-activity__stocks/ATF_FindASymbolRight_2", [[1, 1], [88, 31], [120, 60]], "js-dfp-tag-ZvY")
+
+        .addService(googletag.pubads())
+
+    
+    
+    
+            ;
+  });
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+    
+    googletag.slots["js-dfp-tag-Wx4"] = googletag.defineSlot("/3244/market-activity__stocks/ATF_FindASymbolRight_1", [[1, 1], [88, 31], [120, 60]], "js-dfp-tag-Wx4")
+
+        .addService(googletag.pubads())
+
+    
+    
+    
+            ;
+  });
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+    
+    googletag.slots["js-dfp-tag-18c"] = googletag.defineSlot("/3244/market-activity__stocks/ATF_FindASymbolLeft_2", [[1, 1], [88, 31], [120, 60]], "js-dfp-tag-18c")
+
+        .addService(googletag.pubads())
+
+    
+    
+    
+            ;
+  });
+</script>
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+    
+    googletag.slots["js-dfp-tag-occ"] = googletag.defineSlot("/3244/market-activity__stocks/ATF_FindASymbolLeft_1", [[1, 1], [88, 31], [120, 60]], "js-dfp-tag-occ")
+
+        .addService(googletag.pubads())
+
+    
+    
+    
+            ;
+  });
+</script>
+<script type="text/javascript">
+googletag.cmd.push(function() {
+      googletag.pubads().enableAsyncRendering();
+        googletag.pubads().enableSingleRequest();
+        googletag.pubads().collapseEmptyDivs();
+        googletag.pubads().disableInitialLoad();
+    
+  googletag.pubads().setTargeting("nasdaqdotcom_page_instance_id", digitalData.pageInstanceID || '');
+  googletag.pubads().setTargeting("nasdaqdotcom_page_template", digitalData.page.category.pageType || '');
+  googletag.pubads().setTargeting("nasdaqdotcom_publisher", digitalData.page.pageInfo.publisher || '');
+  googletag.pubads().setTargeting("nasdaqdotcom_region_tag_list", (digitalData.page.attributes.region || []).join(","));
+  googletag.pubads().setTargeting("nasdaqdotcom_topic_tag_list", (digitalData.page.attributes.topic || []).join(","));
+  googletag.pubads().setTargeting("nasdaqdotcom_asset_class_tag_list", (digitalData.page.attributes.assetClass || []).join(","));
+  googletag.pubads().setTargeting("nasdaqdotcom_quote_symbol_list", (digitalData.page.attributes.quoteSymbol || []).join(","));
+  googletag.pubads().setTargeting("nasdaqdotcom_industry_tag_list", (digitalData.page.attributes.industry || []).join(","));
+  googletag.pubads().setTargeting("nasdaqdotcom_audience_tag_lists", (digitalData.page.attributes.audience || []).join(","));
+  googletag.pubads().setTargeting("nasdaqdotcom_video_type", digitalData.page.category.videoType || '');
+  googletag.pubads().setTargeting("nasdaqdotcom_event_type", digitalData.page.category.eventType || '');
+
+  if (typeof AcquiaLift !== 'undefined' && AcquiaLift.currentSegments) {
+    googletag.pubads().setTargeting("acquialift_segment_id", AcquiaLift.currentSegments.map(function(d){return d.id}).join(",") || "");
+  }
+
+  googletag.pubads().enableLazyLoad({
+    fetchMarginPercent: 500,
+    renderMarginPercent: 200,
+    mobileScaling: 2.0
+  });
+
+  // Load ATF slots only on load
+  // BTF slots should load when first instance enters the viewport (see assets/scripts/ads.js)
+
+  var slotValues = Object.keys(googletag.slots).map(function(e) {
+    return googletag.slots[e]
+  });
+
+  var ATFslots = slotValues.filter(function (slot) {
+    return !/BTF/gi.test(slot.getSlotId().toString());
+  });
+
+  var BTFslots = slotValues.filter(function (slot) {
+    return !/ATF/gi.test(slot.getSlotId().toString());
+  });
+
+  // Store in queue
+  ATFslots.forEach(function (slot) {
+    var slotElementId = slot.getSlotElementId();
+    googletag.slotsQueued[slotElementId] = slot;
+  });
+
+  var amazonSlots = ATFslots.map( function(s) {
+    var slotID = s.getSlotElementId();
+    var slotName = s.getSlotId().toString();
+    var sizes = s.getSizes().map(function(d){return [d.l, d.j]});
+    return {
+     slotID: slotID,
+     slotName: slotName,
+     sizes: sizes
+    }
+  });
+
+  apstag.fetchBids({
+    slots: amazonSlots
+  }, function(bids) {
+    // set apstag targeting on googletag, then trigger the first DFP request in googletag's disableInitialLoad integration
+    googletag.cmd.push(function(){
+        apstag.setDisplayBids();
+        googletag.pubads().refresh(ATFslots);
+    });
+  });
+
+  googletag.enableServices();
+
+  // Add the rates as a var as this might be variable in the future.
+  var atfRate = 60000;
+  var btfRate = 40000;
+  // set refresh rates.
+  setInterval(function(){
+    googletag.pubads().refresh(ATFslots);
+  },atfRate);
+
+  setInterval(function(){
+    googletag.pubads().refresh(BTFslots);
+  },btfRate);
+});
+</script>
+<link rel="shortcut icon" href="/sites/acquia.prod/files/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="revision" href="https://www.nasdaq.com/market-activity/stocks/screener" />
+<script src="/sites/acquia.prod/files/google_tag/google_tag.script.js?q0y7sz"></script>
+
+        <title>Stock Screener - Free Stock Market Screeners | Nasdaq</title>
+        <link rel="stylesheet" media="all" href="/sites/acquia.prod/files/css/css_pVYykVzfHwOeOnYSmxDjy6kRAmQTFngNCBSOcm4sOc0.css?q0y7sz" />
+<link rel="stylesheet" media="all" href="/sites/acquia.prod/files/css/css_wX2sSPWlMxegVmVuZIWqOFPJELbCP5VO8la2iPKTWhs.css?q0y7sz" />
+
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"node\/46","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","currentQuery":{"exchange":"nasdaq","letter":"0","render":"download"}},"pluralDelimiter":"\u0003","jquery":{"ui":{"datepicker":{"isRTL":false,"firstDay":0}}},"ajaxPageState":{"libraries":"core\/html5shiv,datalayer\/behaviors,eu_cookie_compliance\/eu_cookie_compliance_bare,lr_ciam\/drupal.ciam_core,lr_ciam\/drupal.ciam_custom,nsdq\/ads,nsdq\/arrow-cta,nsdq\/carousel-controls,nsdq\/featured-notification-bar,nsdq\/featured-symbols,nsdq\/find-symbol,nsdq\/footer-form,nsdq\/form,nsdq\/global,nsdq\/grid-guides,nsdq\/header-ads,nsdq\/loader-overlay,nsdq\/modal,nsdq\/module-header,nsdq\/search-overlay,nsdq\/sidebar-latest-news,nsdq\/svg-loader,nsdq\/symbol-graph,nsdq\/symbol-screener,nsdq\/symbol-screener-page,nsdq\/symbol-ticker,nsdq\/watchlist,nsdq_admin\/toolbar,system\/base","theme":"nsdq","theme_token":null},"ajaxTrustedUrl":[],"dataLayer":{"defaultLang":"en","languages":{"en":{"id":"en","name":"English","direction":"ltr","weight":0}}},"ciam":{"verificationUrl":"https:\/\/www.nasdaq.com\/user\/login","resetPasswordUrl":"https:\/\/www.nasdaq.com\/user\/login","loggedIn":false,"accessToken":[],"phoneId":"","appName":"nasdaq","apiKey":"e77a8cb5-d7ad-4ce9-8ae5-6e7524edf5f3","autoHideTime":"","appPath":"\/","callback":"https:\/\/www.nasdaq.com\/user\/ciamlogin?destination=\/market-activity\/stocks\/screener%3Fexchange%3Dnasdaq%26letter%3D0%26render%3Ddownload","home":"https:\/\/www.nasdaq.com\/","sott":"","debugMode":false,"tokenType":"jwt","integrationName":"Nasdaq JWT"},"eu_cookie_compliance":{"popup_enabled":true,"popup_agreed_enabled":false,"popup_hide_agreed":false,"popup_clicking_confirmation":false,"popup_scrolling_confirmation":false,"popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n      \u003Ch2\u003ESite uses Cookies\u003C\/h2\u003E\n\u003Cp\u003EThis website utilizes cookies and similar technologies for functionality and other purposes including personalization of content. Your use of this website constitutes your acceptance of cookies. To learn more about our cookies and the choices we offer, please see our \u003Ca href=\u0022\/cookie-statement\u0022\u003ECookies Statement\u003C\/a\u003E.\u003C\/p\u003E\n\n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003ECookie policy\u003C\/button\u003E\n          \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EOK, got it\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","use_mobile_message":false,"mobile_popup_html_info":"\u003Cdiv class=\u0022eu-cookie-compliance-banner eu-cookie-compliance-banner-info\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n      \n              \u003Cbutton type=\u0022button\u0022 class=\u0022find-more-button eu-cookie-compliance-more-button\u0022\u003ECookie policy\u003C\/button\u003E\n          \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022agree-button eu-cookie-compliance-default-button\u0022\u003EOK, got it\u003C\/button\u003E\n          \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","mobile_breakpoint":768,"popup_html_agreed":false,"popup_use_bare_css":true,"popup_height":"auto","popup_width":"100%","popup_delay":1000,"popup_link":"\/privacy-statement","popup_link_new_window":true,"popup_position":false,"popup_language":"en","store_consent":false,"better_support_for_screen_readers":true,"cookie_name":"accept-cookies","reload_page":false,"domain":".nasdaq.com","popup_eu_only_js":false,"cookie_lifetime":180,"cookie_session":0,"disagree_do_not_show_popup":false,"method":"default","whitelisted_cookies":"entryUrl\r\nentryReferringURL\r\nQP_channel\r\nQP_source\r\nQP_gclid\r\nQP_ppc-campaignid","withdraw_markup":"\u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-tab\u0022\u003EPrivacy settings\u003C\/button\u003E\n\u003Cdiv class=\u0022eu-cookie-withdraw-banner\u0022\u003E\n  \u003Cdiv class=\u0022popup-content info eu-cookie-compliance-content\u0022\u003E\n    \u003Cdiv id=\u0022popup-text\u0022 class=\u0022eu-cookie-compliance-message\u0022\u003E\n      \u003Ch2\u003EWe use cookies on this site to enhance your user experience\u003C\/h2\u003E\n\u003Cp\u003EYou have given your consent for us to set cookies.\u003C\/p\u003E\n\n    \u003C\/div\u003E\n    \u003Cdiv id=\u0022popup-buttons\u0022 class=\u0022eu-cookie-compliance-buttons\u0022\u003E\n      \u003Cbutton type=\u0022button\u0022 class=\u0022eu-cookie-withdraw-button\u0022\u003EWithdraw consent\u003C\/button\u003E\n    \u003C\/div\u003E\n  \u003C\/div\u003E\n\u003C\/div\u003E","withdraw_enabled":false},"user":{"uid":0,"permissionsHash":"338adf52e61e15d159e12f508ac9230df3131bc3acb32fae17cd7ce7572436e0"}}</script>
+
+<!--[if lte IE 8]>
+<script src="/sites/acquia.prod/files/js/js_VtafjXmRvoUgAzqzYTA3Wrjkx9wcWhjP0G4ZnnqRamA.js"></script>
+<![endif]-->
+<script src="/sites/acquia.prod/files/js/js_Khc_2yUd0V8QCJwUvrJlTzb8loPGPDvlbipgbtYu2u4.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="google-site-verification" content="A4ZdzztVttv1nCpL1SePVC3K2K">
+          
+  <script>(window.BOOMR_mq=window.BOOMR_mq||[]).push(["addVar",{"rua.upush":"false","rua.cpush":"false","rua.upre":"false","rua.cpre":"false","rua.uprl":"false","rua.cprl":"false","rua.cprf":"false","rua.trans":"","rua.cook":"false","rua.ims":"false","rua.ufprl":"false","rua.cfprl":"false"}]);</script>
+  <script>!function(){function o(n,i){if(n&&i)for(var r in i)i.hasOwnProperty(r)&&(void 0===n[r]?n[r]=i[r]:n[r].constructor===Object&&i[r].constructor===Object?o(n[r],i[r]):n[r]=i[r])}try{var n=decodeURIComponent("");if(n.length>0&&window.JSON&&"function"==typeof window.JSON.parse){var i=JSON.parse(n);void 0!==window.BOOMR_config?o(window.BOOMR_config,i):window.BOOMR_config=i}}catch(r){window.console&&"function"==typeof window.console.error&&console.error("mPulse: Could not parse configuration",r)}}();</script>
+  <script>!function(e){var a="https://s.go-mpulse.net/boomerang/",t="addEventListener";if("False"=="True")e.BOOMR_config=e.BOOMR_config||{},e.BOOMR_config.PageParams=e.BOOMR_config.PageParams||{},e.BOOMR_config.PageParams.pci=!0,a="https://s2.go-mpulse.net/boomerang/";if(window.BOOMR_API_key="JMQ95-CD7GZ-6S8JD-G393D-PHU4L",function(){function n(a){e.BOOMR_onload=a&&a.timeStamp||(new Date).getTime()}if(!e.BOOMR||!e.BOOMR.version&&!e.BOOMR.snippetExecuted){e.BOOMR=e.BOOMR||{},e.BOOMR.snippetExecuted=!0;var i,o,r,_=document.createElement("iframe");if(e[t])e[t]("load",n,!1);else if(e.attachEvent)e.attachEvent("onload",n);_.src="javascript:void(0)",_.title="",_.role="presentation",(_.frameElement||_).style.cssText="width:0;height:0;border:0;display:none;",r=document.getElementsByTagName("script")[0],r.parentNode.insertBefore(_,r);try{o=_.contentWindow.document}catch(O){i=document.domain,_.src="javascript:var d=document.open();d.domain='"+i+"';void(0);",o=_.contentWindow.document}o.open()._l=function(){var e=this.createElement("script");if(i)this.domain=i;e.id="boomr-if-as",e.src=a+"JMQ95-CD7GZ-6S8JD-G393D-PHU4L",BOOMR_lstart=(new Date).getTime(),this.body.appendChild(e)},o.write("<bo"+'dy onload="document._l();">'),o.close()}}(),"".length>0)if(e&&"performance"in e&&e.performance&&"function"==typeof e.performance.setResourceTimingBufferSize)e.performance.setResourceTimingBufferSize();!function(){if(BOOMR=e.BOOMR||{},BOOMR.plugins=BOOMR.plugins||{},!BOOMR.plugins.AK){var a=""=="true"?1:0,t="",n="niz6t63ipiamgxorcxjq-f-d10fc0fd2-clientnsv4-s.akamaihd.net",i={"ak.v":25,"ak.cp":"841979","ak.ai":parseInt("537243",10),"ak.ol":"0","ak.cr":3,"ak.ipv":4,"ak.proto":"","ak.rid":"1d3654","ak.r":26813,"ak.a2":a,"ak.m":"dsca","ak.n":"essl","ak.bpcip":"106.51.233.0","ak.cport":18144,"ak.gh":"173.223.235.204","ak.quicv":"","ak.tlsv":"tls1.2","ak.0rtt":"","ak.csrc":"-","ak.acc":"reno","ak.t":"1573983699"};if(""!==t)i["ak.ruds"]=t;var o={i:!1,av:function(a){var t="http.initiator";if(a&&(!a[t]||"spa_hard"===a[t]))i["ak.feo"]=void 0!==e.aFeoApplied?1:0,BOOMR.addVar(i)},rv:function(){var e=["ak.bpcip","ak.cport","ak.cr","ak.csrc","ak.gh","ak.ipv","ak.m","ak.n","ak.ol","ak.proto","ak.quicv","ak.tlsv","ak.0rtt","ak.r","ak.acc","ak.t"];BOOMR.removeVar(e)}};BOOMR.plugins.AK={akVars:i,akDNSPreFetchDomain:n,init:function(){if(!o.i){var e=BOOMR.subscribe;e("before_beacon",o.av,null,null),e("onbeacon",o.rv,null,null),o.i=!0}return this},is_complete:function(){return!0}}}}()}(window);</script></head>
+  <body class="path-node page-node-type-symbol-screener">
+        <a href="#main-content" class="jumpnav">Skip to main content</a>
+    <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TB9QCTB&amp;gtm_auth=AbgJsDZWx9ClJu0CVnQWXA&amp;gtm_preview=env-10&amp;gtm_cookies_win=x" height="0" width="0" title="Google Tag Manager"></iframe></noscript>
+    
+
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<div class="page with-primary-nav">
+
+  <div class="header-group">
+            
+  
+
+
+<header class="primary-nav  primary-nav--sticky " data-mega-menu-disabled="FALSE" role="banner">
+  <nav class="primary-nav__content" aria-label="Primary Navigation" role="navigation">
+    <button class="primary-nav__hamburger" aria-label="Toggle mobile navigation menu"></button>
+
+    <div class="primary-nav__logo">
+      <a href="/" title="Nasdaq Homepage">
+        <img class="primary-nav__logo-normal" src="/themes/nsdq/dist/assets/images/logo.svg" alt="Nasdaq Logo" />
+              </a>
+    </div>
+
+    <ul class="primary-nav__links" aria-hidden="true" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                      
+                                  
+        
+        <li class="primary-nav__link " itemprop="name">
+          <a class="primary-nav__anchor" data-mega-menu-enabled="true" href="/market-activity" title="" itemprop="url">
+            <span class="primary-nav__anchor-text">Market Activity</span>
+          </a>
+                      <button class="primary-nav__expand" data-enabled="false" aria-label="Market Activity - Click to open sub-navigation">
+              <span class="primary-nav__expand-caret" aria-hidden="true"></span>
+            </button>
+            <div class="primary-nav__mega" aria-hidden="true" >
+  <ul class="primary-nav__mega-list" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+
+          <li class="primary-nav__mega-column" itemprop="name">
+        
+                      <div class="primary-nav__cta" tabindex="0">
+              <a class="primary-nav__cta-link" href="/market-activity" itemprop="url">
+                <span class="primary-nav__cta-text">See All Market Activity</span>
+                <span class="primary-nav__cta-arrow" aria-hidden="true"></span>
+              </a>
+            </div>
+          
+          
+          
+          
+        
+          
+                      <span class="primary-nav__header">
+                              <a class="primary-nav__header-link" href="/market-activity" itemprop="url">
+                  <span class="primary-nav__header-link-text">Market Activity</span>
+                  <span class="primary-nav__header-link-caret" aria-hidden="true"></span>
+                </a>
+                          </span>
+          
+          
+          
+        
+          
+          
+                      <ul class="primary-nav__mega-links" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/market-activity/stocks" itemprop="url">Stocks</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/market-activity/funds-and-etfs" itemprop="url">Funds + ETFs</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/market-activity/indexes" itemprop="url">Indexes</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/market-activity/commodities" itemprop="url">Commodities</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/market-activity/cryptocurrency" itemprop="url">Cryptocurrency</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/market-activity/currencies" itemprop="url">Currencies</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/market-activity/futures" itemprop="url">Futures</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/market-activity/fixed-income" itemprop="url">Fixed Income</a>
+                </li>
+                          </ul>
+          
+          
+              </li>
+          <li class="primary-nav__mega-column" itemprop="name">
+        
+          
+                      <span class="primary-nav__header">
+                              Quick Links
+                          </span>
+          
+          
+          
+        
+          
+          
+                      <ul class="primary-nav__mega-links" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/market-activity/quotes/real-time" itemprop="url">Real-Time Quotes</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/market-activity/after-hours" itemprop="url">After-Hours Quotes</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/market-activity/pre-market" itemprop="url">Pre-Market Quotes</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/market-activity/quotes/Nasdaq-100-Index-Components" itemprop="url">Nasdaq-100</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/market-activity/stocks/screener" itemprop="url">Symbol Screener</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/market-activity/online-brokers" itemprop="url">Online Brokers</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/glossary" itemprop="url">Glossary</a>
+                </li>
+                          </ul>
+          
+          
+              </li>
+          <li class="primary-nav__mega-column" itemprop="name">
+        
+          
+                      <span class="primary-nav__header">
+                              Market Events
+                          </span>
+          
+          
+          
+        
+          
+          
+                      <ul class="primary-nav__mega-links" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/market-activity/economic-calendar" itemprop="url">Economic Calendar</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/market-activity/earnings" itemprop="url">Earnings</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/market-activity/ipos" itemprop="url">IPO Calendar</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/market-activity/dividends" itemprop="url">Dividends</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/market-activity/stock-splits" itemprop="url">Stock Splits</a>
+                </li>
+                          </ul>
+          
+          
+              </li>
+      </ul>
+
+  </div>
+                  </li>
+                      
+                                  
+        
+        <li class="primary-nav__link " itemprop="name">
+          <a class="primary-nav__anchor" data-mega-menu-enabled="true" href="/news-and-insights" title="" itemprop="url">
+            <span class="primary-nav__anchor-text">News + Insights</span>
+          </a>
+                      <button class="primary-nav__expand" data-enabled="false" aria-label="News + Insights - Click to open sub-navigation">
+              <span class="primary-nav__expand-caret" aria-hidden="true"></span>
+            </button>
+            <div class="primary-nav__mega" aria-hidden="true" >
+  <ul class="primary-nav__mega-list" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+
+          <li class="primary-nav__mega-column" itemprop="name">
+        
+                      <div class="primary-nav__cta" tabindex="0">
+              <a class="primary-nav__cta-link" href="/news-and-insights" itemprop="url">
+                <span class="primary-nav__cta-text">See All News + Insights</span>
+                <span class="primary-nav__cta-arrow" aria-hidden="true"></span>
+              </a>
+            </div>
+          
+          
+          
+          
+        
+          
+          
+          
+                      <ul class="primary-nav__mega-subnav" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                              <li class="primary-nav__mega-subnav-item" itemprop="name">
+                  <a class="primary-nav__mega-subnav-link" href="/news-and-insights/markets" itemprop="url">Markets</a>
+                </li>
+                              <li class="primary-nav__mega-subnav-item" itemprop="name">
+                  <a class="primary-nav__mega-subnav-link" href="/news-and-insights/company-intel" itemprop="url">Companies</a>
+                </li>
+                              <li class="primary-nav__mega-subnav-item" itemprop="name">
+                  <a class="primary-nav__mega-subnav-link" href="/news-and-insights/technology" itemprop="url">Technology</a>
+                </li>
+                              <li class="primary-nav__mega-subnav-item" itemprop="name">
+                  <a class="primary-nav__mega-subnav-link" href="/news-and-insights/personal-finance" itemprop="url">Personal Finance</a>
+                </li>
+                              <li class="primary-nav__mega-subnav-item" itemprop="name">
+                  <a class="primary-nav__mega-subnav-link" href="https://www.nasdaq.com/news-and-insights/financial-advisors" itemprop="url">Financial Advisors</a>
+                </li>
+                          </ul>
+          
+              </li>
+          <li class="primary-nav__mega-column" itemprop="name">
+        
+          
+                      <span class="primary-nav__header">
+                              Topics
+                          </span>
+          
+          
+          
+        
+          
+          
+                      <ul class="primary-nav__mega-links" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/news-and-insights/topic/technology/blockchain" itemprop="url">Blockchain</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/news-and-insights/topic/markets/commodities" itemprop="url">Commodities</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/news-and-insights/topic/markets/cryptocurrencies" itemprop="url">Cryptocurrencies</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/news-and-insights/topic/companies/earnings" itemprop="url">Earnings</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/news-and-insights/governance-center" itemprop="url">Governance</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/news-and-insights/topic/companies/ipos" itemprop="url">IPOs</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/news-and-insights/topic/personal-finance/retirement" itemprop="url">Retirement</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/news-and-insights/topic/markets/stocks" itemprop="url">Stocks</a>
+                </li>
+                          </ul>
+          
+          
+              </li>
+          <li class="primary-nav__mega-column" itemprop="name">
+        
+          
+                      <span class="primary-nav__header">
+                              Features
+                          </span>
+          
+          
+          
+        
+          
+          
+                      <ul class="primary-nav__mega-links" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/news-and-insights/cultural-capital-video-series" itemprop="url">Cultural Capital</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/news-and-insights/investing-strategies" itemprop="url">Investing Strategies</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/market-makers/subscribe" itemprop="url">Market Makers by Phil Mackintosh</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/authors/market-intelligence-desk-team" itemprop="url">Market Intelligence Desk</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="https://www.nasdaq.com/sponsored/interactive-brokers/tactics-of-the-trade.html" itemprop="url">Tactics of the Trade</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/podcasts/tomorrowscapital" itemprop="url">Tomorrow&#039;s Capital Podcast</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/podcasts/TotalMarkets" itemprop="url">TotalMarkets Podcast</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/news-and-insights/tradetalks" itemprop="url">TradeTalks</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/videos" itemprop="url">Nasdaq Watch</a>
+                </li>
+                          </ul>
+          
+          
+              </li>
+      </ul>
+
+  </div>
+                  </li>
+                      
+                                  
+        
+        <li class="primary-nav__link " itemprop="name">
+          <a class="primary-nav__anchor" data-mega-menu-enabled="true" href="/solutions" title="" itemprop="url">
+            <span class="primary-nav__anchor-text">Solutions</span>
+          </a>
+                      <button class="primary-nav__expand" data-enabled="false" aria-label="Solutions - Click to open sub-navigation">
+              <span class="primary-nav__expand-caret" aria-hidden="true"></span>
+            </button>
+            <div class="primary-nav__mega" aria-hidden="true" >
+  <ul class="primary-nav__mega-list" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+
+          <li class="primary-nav__mega-column" itemprop="name">
+        
+                      <div class="primary-nav__cta" tabindex="0">
+              <a class="primary-nav__cta-link" href="/solutions" itemprop="url">
+                <span class="primary-nav__cta-text">See All Solutions</span>
+                <span class="primary-nav__cta-arrow" aria-hidden="true"></span>
+              </a>
+            </div>
+          
+          
+          
+          
+        
+          
+                      <span class="primary-nav__header">
+                              <a class="primary-nav__header-link" href="/solutions/raise-access-capital" itemprop="url">
+                  <span class="primary-nav__header-link-text">Raise &amp; Access Capital</span>
+                  <span class="primary-nav__header-link-caret" aria-hidden="true"></span>
+                </a>
+                          </span>
+          
+          
+          
+        
+          
+          
+                      <ul class="primary-nav__mega-links" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/list-your-company" itemprop="url">List with Nasdaq</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/nasdaq-private-market" itemprop="url">Nasdaq Private Market Solutions</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/fund-manager-selection" itemprop="url">Institutional Capital with eVestment</a>
+                </li>
+                          </ul>
+          
+          
+        
+          
+                      <span class="primary-nav__header">
+                              <a class="primary-nav__header-link" href="/solutions/optimize-governance-practices" itemprop="url">
+                  <span class="primary-nav__header-link-text">Optimize Governance Practices</span>
+                  <span class="primary-nav__header-link-caret" aria-hidden="true"></span>
+                </a>
+                          </span>
+          
+          
+          
+        
+          
+          
+                      <ul class="primary-nav__mega-links" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/boardvantage" itemprop="url">Nasdaq Boardvantage Board Portal</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/board-evaluations" itemprop="url">Board Evaluations</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/governance-center" itemprop="url">Nasdaq Center for Corporate Governance</a>
+                </li>
+                          </ul>
+          
+          
+              </li>
+          <li class="primary-nav__mega-column" itemprop="name">
+        
+          
+                      <span class="primary-nav__header">
+                              <a class="primary-nav__header-link" href="/solutions/transform-with-technology" itemprop="url">
+                  <span class="primary-nav__header-link-text">Transform with Technology</span>
+                  <span class="primary-nav__header-link-caret" aria-hidden="true"></span>
+                </a>
+                          </span>
+          
+          
+          
+        
+          
+          
+                      <ul class="primary-nav__mega-links" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/solutions-for-market-infrastructure-operators" itemprop="url">Market Infrastructure Technology</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/non-traditional-exchanges-new-markets" itemprop="url">Non-Traditional Exchanges &amp; New Markets</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/sell-side-technology" itemprop="url">Sell-Side Technology</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/buy-side-technology" itemprop="url">Buy-Side Technology</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/nasdaq-modex-cat-risk-ecosystem" itemprop="url">Catastrophe Risk Technology</a>
+                </li>
+                          </ul>
+          
+          
+        
+          
+                      <span class="primary-nav__header">
+                              <a class="primary-nav__header-link" href="/solutions/gain-market-intelligence" itemprop="url">
+                  <span class="primary-nav__header-link-text">Gain Market Intelligence</span>
+                  <span class="primary-nav__header-link-caret" aria-hidden="true"></span>
+                </a>
+                          </span>
+          
+          
+          
+        
+          
+          
+                      <ul class="primary-nav__mega-links" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/nasdaq-solutions-buy-side-collection" itemprop="url">Buy-Side Intelligence</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/nasdaq-investment-data-and-analytics" itemprop="url">Investment Data &amp; Analytics</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/nasdaq-market-data-feeds" itemprop="url">Market Data &amp; Feeds</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/GlobalIndexes" itemprop="url">Nasdaq Global Indexes</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/investor-relations" itemprop="url">Investor Relations Intelligence</a>
+                </li>
+                          </ul>
+          
+          
+              </li>
+          <li class="primary-nav__mega-column" itemprop="name">
+        
+          
+                      <span class="primary-nav__header">
+                              <a class="primary-nav__header-link" href="/solutions/trade-global-markets" itemprop="url">
+                  <span class="primary-nav__header-link-text">Trade Global Markets</span>
+                  <span class="primary-nav__header-link-caret" aria-hidden="true"></span>
+                </a>
+                          </span>
+          
+          
+          
+        
+          
+          
+                      <ul class="primary-nav__mega-links" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/equities" itemprop="url">Equities</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/u.s.-equity-derivatives" itemprop="url">Equity Derivatives</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/exchange-traded-products" itemprop="url">ETFs &amp; ETPs</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/nasdaq-fixed-income" itemprop="url">Fixed Income</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/commodities-traded-on-nasdaq" itemprop="url">Commodities</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/global-trading-services" itemprop="url">Trading Services</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/post-trade-services" itemprop="url">Post Trade Services</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/nasdaq-clearing-central-counterparty-clearing-emir-authorized" itemprop="url">Clearing</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/solutions/exchange-oversight" itemprop="url">Exchange Oversight </a>
+                </li>
+                          </ul>
+          
+          
+              </li>
+      </ul>
+
+  </div>
+                  </li>
+                      
+                                  
+        
+        <li class="primary-nav__link " itemprop="name">
+          <a class="primary-nav__anchor" data-mega-menu-enabled="true" href="/about" title="" itemprop="url">
+            <span class="primary-nav__anchor-text">About</span>
+          </a>
+                      <button class="primary-nav__expand" data-enabled="false" aria-label="About - Click to open sub-navigation">
+              <span class="primary-nav__expand-caret" aria-hidden="true"></span>
+            </button>
+            <div class="primary-nav__mega" aria-hidden="true" >
+  <ul class="primary-nav__mega-list" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+
+          <li class="primary-nav__mega-column" itemprop="name">
+        
+                      <div class="primary-nav__cta" tabindex="0">
+              <a class="primary-nav__cta-link" href="/about" itemprop="url">
+                <span class="primary-nav__cta-text">See All About</span>
+                <span class="primary-nav__cta-arrow" aria-hidden="true"></span>
+              </a>
+            </div>
+          
+          
+          
+          
+        
+          
+          
+          
+                      <ul class="primary-nav__mega-subnav" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                              <li class="primary-nav__mega-subnav-item" itemprop="name">
+                  <a class="primary-nav__mega-subnav-link" href="/about/our-people" itemprop="url">Our People</a>
+                </li>
+                              <li class="primary-nav__mega-subnav-item" itemprop="name">
+                  <a class="primary-nav__mega-subnav-link" href="/about/careers" itemprop="url">Careers</a>
+                </li>
+                              <li class="primary-nav__mega-subnav-item" itemprop="name">
+                  <a class="primary-nav__mega-subnav-link" href="/about/press-center" itemprop="url">Press Center</a>
+                </li>
+                              <li class="primary-nav__mega-subnav-item" itemprop="name">
+                  <a class="primary-nav__mega-subnav-link" href="/contact-us" itemprop="url">Contact</a>
+                </li>
+                          </ul>
+          
+              </li>
+          <li class="primary-nav__mega-column" itemprop="name">
+        
+          
+                      <span class="primary-nav__header">
+                              Quick Links
+                          </span>
+          
+          
+          
+        
+          
+          
+                      <ul class="primary-nav__mega-links" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/marketsite" itemprop="url">Nasdaq Marketsite</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="http://ir.nasdaq.com/" itemprop="url">Investor Relations</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/diversity-inclusion-belonging" itemprop="url">Diversity, Inclusion and Belonging</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/ESG-Guide" itemprop="url">ESG Reporting Guide</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/nasdaq-nordic-foundation" itemprop="url">Nasdaq Nordic Foundation</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/authors/marketinsite" itemprop="url">Nasdaq Thought Leadership</a>
+                </li>
+                          </ul>
+          
+          
+              </li>
+          <li class="primary-nav__mega-column" itemprop="name">
+        
+          
+                      <span class="primary-nav__header">
+                              Nasdaq Initiatives
+                          </span>
+          
+          
+          
+        
+          
+          
+                      <ul class="primary-nav__mega-links" itemscope itemtype="http://www.schema.org/SiteNavigationElement">
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/TotalMarkets" itemprop="url">TotalMarkets</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/public-policy" itemprop="url">Public Policy Advocacy</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/sustainability" itemprop="url">Sustainability at Nasdaq</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/nasdaq-entrepreneurial-center" itemprop="url">Nasdaq Entrepreneurial Center</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/nasdaq-ventures" itemprop="url">Nasdaq Ventures</a>
+                </li>
+                              <li class="primary-nav__mega-links-item" itemprop="name">
+                  <a class="primary-nav__mega-links-link" href="/revitalize" itemprop="url">Revitalize the Markets</a>
+                </li>
+                          </ul>
+          
+          
+              </li>
+      </ul>
+
+  </div>
+                  </li>
+      
+              <li class="primary-nav__link" data-type="login">
+          <a href="/user/login" class="primary-nav__mobile-login">Log in</a>
+        </li>
+          </ul>
+
+    <div class="primary-nav__right">
+              <a href="/user/login" class="primary-nav__login">Log in</a>
+            <button class="primary-nav__search" aria-label="Toggle search overlay" data-modal-id="search-overlay-modal"></button>
+    </div>
+
+      </nav>
+
+</header>
+
+
+
+<div  class="modal" id="search-overlay-modal"  role="dialog" hidden>
+  <div class="loader-overlay">
+  
+
+
+
+<div class="svg-loader" style="width: 140px;">
+  <div class="svg-loader__container">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 70 60" xml:space="preserve">
+      <style type="text/css">
+        .st0 {
+          fill: #0090BA;
+        }
+      </style>
+      <defs>
+        <linearGradient id="mask-gradient-495954995" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="10%" stop-color="white" stop-opacity="0" />
+          <stop offset="20%" stop-color="white" stop-opacity="1" />
+          <stop offset="100%" stop-color="white" stop-opacity="1" />
+          <stop offset="110%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-289626196" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="20%" stop-color="white" stop-opacity="0" />
+          <stop offset="25%" stop-color="white" stop-opacity="1" />
+          <stop offset="75%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-1860161456" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="-10%" stop-color="white" stop-opacity="0" />
+          <stop offset="0%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="1" />
+          <stop offset="90%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <mask id="mask-495954995">
+          <rect class="rect-mask__first" x="0" y="-1" width="35" height="75" fill="url(#mask-gradient-495954995)" />
+        </mask>
+        <mask id="mask-289626196">
+          <rect class="rect-mask__second" x="27" y="10" width="16" height="40" fill="url(#mask-gradient-289626196)" />
+        </mask>
+        <mask id="mask-1860161456">
+          <rect class="rect-mask__third" x="35" y="-10" width="35" height="75" fill="url(#mask-gradient-1860161456)" />
+        </mask>
+      </defs>
+      <path class="st0" mask="url(#mask-495954995)" d="M34.9,14.9L34.9,14.9c-1.2,0.1-2.3,0.9-2.7,2L16.7,59.6H0l15.5-42.7c0.4-1.1,1.5-2,2.8-2H34.9"/>
+      <path class="st0" mask="url(#mask-289626196)" d="M33.6,44c-1.2,0-2.1-0.7-2.6-1.7l-3.3-9.2l5.7-15.7c0.1-0.3,0.3-0.6,0.4-0.7c0.5-0.7,1.3-1.2,2.3-1.2
+  c1.2,0,2.2,0.7,2.6,1.7l3.3,9.1l-5.7,15.7c-0.1,0.4-0.3,0.6-0.4,0.7C35.4,43.5,34.6,44,33.6,44z"/>
+      <path class="st0" mask="url(#mask-1860161456)" d="M35,44.6L35,44.6c1.2-0.1,2.1-0.9,2.5-2L53,0h16.7L54.1,42.7c-0.4,1.1-1.5,2-2.8,2H35"/>
+
+    </svg>
+  </div>
+</div>
+
+
+  <div class="error-state">Data is currently not available</div>
+</div>
+
+
+  <div class="modal__container">
+    <div class="modal__flex">
+
+      <div class="modal__body">
+        <div class="modal__controls">
+          <button class="modal__close" aria-label="Click to close" data-modal-close></button>
+
+                  </div>
+
+        <div class="modal__content">
+              <div class="search-overlay-container" data-modal-form-focus>
+      <div class="loader-overlay">
+  
+
+
+
+<div class="svg-loader" style="width: 140px;">
+  <div class="svg-loader__container">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 70 60" xml:space="preserve">
+      <style type="text/css">
+        .st0 {
+          fill: #0090BA;
+        }
+      </style>
+      <defs>
+        <linearGradient id="mask-gradient-1913649602" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="10%" stop-color="white" stop-opacity="0" />
+          <stop offset="20%" stop-color="white" stop-opacity="1" />
+          <stop offset="100%" stop-color="white" stop-opacity="1" />
+          <stop offset="110%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-263736888" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="20%" stop-color="white" stop-opacity="0" />
+          <stop offset="25%" stop-color="white" stop-opacity="1" />
+          <stop offset="75%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-743786496" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="-10%" stop-color="white" stop-opacity="0" />
+          <stop offset="0%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="1" />
+          <stop offset="90%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <mask id="mask-1913649602">
+          <rect class="rect-mask__first" x="0" y="-1" width="35" height="75" fill="url(#mask-gradient-1913649602)" />
+        </mask>
+        <mask id="mask-263736888">
+          <rect class="rect-mask__second" x="27" y="10" width="16" height="40" fill="url(#mask-gradient-263736888)" />
+        </mask>
+        <mask id="mask-743786496">
+          <rect class="rect-mask__third" x="35" y="-10" width="35" height="75" fill="url(#mask-gradient-743786496)" />
+        </mask>
+      </defs>
+      <path class="st0" mask="url(#mask-1913649602)" d="M34.9,14.9L34.9,14.9c-1.2,0.1-2.3,0.9-2.7,2L16.7,59.6H0l15.5-42.7c0.4-1.1,1.5-2,2.8-2H34.9"/>
+      <path class="st0" mask="url(#mask-263736888)" d="M33.6,44c-1.2,0-2.1-0.7-2.6-1.7l-3.3-9.2l5.7-15.7c0.1-0.3,0.3-0.6,0.4-0.7c0.5-0.7,1.3-1.2,2.3-1.2
+  c1.2,0,2.2,0.7,2.6,1.7l3.3,9.1l-5.7,15.7c-0.1,0.4-0.3,0.6-0.4,0.7C35.4,43.5,34.6,44,33.6,44z"/>
+      <path class="st0" mask="url(#mask-743786496)" d="M35,44.6L35,44.6c1.2-0.1,2.1-0.9,2.5-2L53,0h16.7L54.1,42.7c-0.4,1.1-1.5,2-2.8,2H35"/>
+
+    </svg>
+  </div>
+</div>
+
+
+  <div class="error-state">Data is currently not available</div>
+</div>
+
+
+      <div class="search-overlay">
+              </div>
+    </div>
+          </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div id="block-survival">
+  
+    
+      
+  <p>
+<style>
+<!--/*--><![CDATA[/* ><!--*/
+
+<!--/*--><![CDATA[/* ><!--*/
+
+
+#block-survival-2 {
+display: none;
+}
+
+.quote-subdetail__attribution { padding-bottom: 4.875rem !important}
+
+.symbol-ticker--large-symbol .symbol-ticker__symbol-data--down .symbol-ticker__change--percent,
+.symbol-ticker--large-symbol .symbol-ticker__symbol-data--down .symbol-ticker__change--points {
+-webkit-transform: none !important;
+transform: none !important;
+}
+
+@media only screen and (min-width: 75rem) {
+  .page-node-type-symbol-screener .with-primary-nav .page__main {
+    padding-top: 140px;
+  }
+}
+.with-sub-nav .page__main {
+    padding-top: 120px;
+}
+
+.market-activity__ads_left { visibility: hidden; }
+
+.symbol-page-header ul.symbol-page-header__eyebrow li:last-child { display: none}
+.symbol-page-header ul.symbol-page-header__eyebrow li:nth-child(4):after { display: none}
+
+
+/*--><!]]]]><![CDATA[>*/
+
+/*--><!]]>*/
+</style></p>
+
+  </div>
+
+ 
+            </div>
+
+  
+  
+  <main class="page__main" role="main">
+    <a id="main-content" tabindex="-1"></a>    <div class="page__content">  <div data-drupal-messages-fallback class="hidden"></div>
+
+
+
+  
+<div class="find-symbol find-symbol--light" data-subdetailpath = "" data-assetclassforsearch=>
+  <div class="find-symbol__container">
+
+            <div class="find-symbol__ads"><div class="find-symbol__ad-slot">
+<div id="js-dfp-tag-occ"  class="atf-findasymbolleft-1">
+    
+    <script type="text/javascript">
+        googletag.cmd.push(function() {
+            googletag.display('js-dfp-tag-occ');
+        });
+    </script>
+</div>
+</div>
+
+
+<div class="find-symbol__ad-slot">
+<div id="js-dfp-tag-18c"  class="atf-findasymbolleft-2">
+    
+    <script type="text/javascript">
+        googletag.cmd.push(function() {
+            googletag.display('js-dfp-tag-18c');
+        });
+    </script>
+</div>
+</div>
+
+
+</div>
+    
+    <form action="/symbol-search" class="find-symbol__form" autocomplete="off" role="search">
+      <div class="find-symbol__form-block">
+                <div class="find-symbol__input-block">
+          <label class="find-symbol__input-label-light" for="find-symbol-input">Find a Symbol</label>
+                              <input type="text" id="find-symbol-input" name="q" class="find-symbol__input" placeholder="Find a Symbol" aria-describedby="findSymbolInst" aria-owns="resultsLight">
+
+          <div class="find-symbol__suggestions" id="resultsLight" role="listbox" aria-label="Search results autocomplete listing">
+            <a href="/symbol/" class="find-symbol__suggestion" role="option"></a>
+          </div>
+          <button type="submit" class="find-symbol__submit" aria-label="Click to search"></button>
+          <span id="findSymbolInst" style="display: none;">When autocomplete results are available use up and down arrows to review and enter to select.  Touch device users, explore by touch or with swipe gestures.</span>
+        </div>
+      </div>
+    </form>
+
+            <div class="find-symbol__ads"><div class="find-symbol__ad-slot">
+<div id="js-dfp-tag-Wx4"  class="atf-findasymbolright-1">
+    
+    <script type="text/javascript">
+        googletag.cmd.push(function() {
+            googletag.display('js-dfp-tag-Wx4');
+        });
+    </script>
+</div>
+</div>
+
+
+<div class="find-symbol__ad-slot">
+<div id="js-dfp-tag-ZvY"  class="atf-findasymbolright-2">
+    
+    <script type="text/javascript">
+        googletag.cmd.push(function() {
+            googletag.display('js-dfp-tag-ZvY');
+        });
+    </script>
+</div>
+</div>
+
+
+</div>
+              </div>
+
+  <div class="find-symbol__alert visually-hidden" role="alert"></div>
+</div>
+
+
+
+<div class="layout layout--2-col-large">
+  <div class="layout--main">
+  	<div class="ads__header-ad-pixel-3-up">
+      <div class="ads__header-ad-pixel-3-up__pixel">
+      
+<div id="js-dfp-tag-DAA"  class="atf-pixel-1">
+    
+    <script type="text/javascript">
+        googletag.cmd.push(function() {
+            googletag.display('js-dfp-tag-DAA');
+        });
+    </script>
+</div>
+
+    </div>
+      <div class="ads__header-ad-pixel-3-up__pixel">
+      
+<div id="js-dfp-tag-Oyg"  class="atf-pixel-2">
+    
+    <script type="text/javascript">
+        googletag.cmd.push(function() {
+            googletag.display('js-dfp-tag-Oyg');
+        });
+    </script>
+</div>
+
+    </div>
+      <div class="ads__header-ad-pixel-3-up__pixel">
+      
+<div id="js-dfp-tag-sIQ"  class="atf-pixel-3">
+    
+    <script type="text/javascript">
+        googletag.cmd.push(function() {
+            googletag.display('js-dfp-tag-sIQ');
+        });
+    </script>
+</div>
+
+    </div>
+  </div>
+
+
+    <div class="ads__leaderboard--mobile-tablet">
+<div id="js-dfp-tag-TO4"  class="atf-leaderboard-mobile-tablet">
+    
+    <script type="text/javascript">
+        googletag.cmd.push(function() {
+            googletag.display('js-dfp-tag-TO4');
+        });
+    </script>
+</div>
+</div>
+
+
+
+    
+<section class="symbol-screener">
+  <h1 class="symbol-screener__title">Symbol Screener</h1>
+
+  <div class="symbol-screener__content" data-asset-class="Stocks"></div>
+
+  <div class="symbol-screener__loader" aria-hidden="true">
+    
+
+
+
+<div class="svg-loader" style="width: 140px;">
+  <div class="svg-loader__container">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 70 60" xml:space="preserve">
+      <style type="text/css">
+        .st0 {
+          fill: #0090BA;
+        }
+      </style>
+      <defs>
+        <linearGradient id="mask-gradient-474727983" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="10%" stop-color="white" stop-opacity="0" />
+          <stop offset="20%" stop-color="white" stop-opacity="1" />
+          <stop offset="100%" stop-color="white" stop-opacity="1" />
+          <stop offset="110%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-1958392510" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="20%" stop-color="white" stop-opacity="0" />
+          <stop offset="25%" stop-color="white" stop-opacity="1" />
+          <stop offset="75%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-1365702188" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="-10%" stop-color="white" stop-opacity="0" />
+          <stop offset="0%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="1" />
+          <stop offset="90%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <mask id="mask-474727983">
+          <rect class="rect-mask__first" x="0" y="-1" width="35" height="75" fill="url(#mask-gradient-474727983)" />
+        </mask>
+        <mask id="mask-1958392510">
+          <rect class="rect-mask__second" x="27" y="10" width="16" height="40" fill="url(#mask-gradient-1958392510)" />
+        </mask>
+        <mask id="mask-1365702188">
+          <rect class="rect-mask__third" x="35" y="-10" width="35" height="75" fill="url(#mask-gradient-1365702188)" />
+        </mask>
+      </defs>
+      <path class="st0" mask="url(#mask-474727983)" d="M34.9,14.9L34.9,14.9c-1.2,0.1-2.3,0.9-2.7,2L16.7,59.6H0l15.5-42.7c0.4-1.1,1.5-2,2.8-2H34.9"/>
+      <path class="st0" mask="url(#mask-1958392510)" d="M33.6,44c-1.2,0-2.1-0.7-2.6-1.7l-3.3-9.2l5.7-15.7c0.1-0.3,0.3-0.6,0.4-0.7c0.5-0.7,1.3-1.2,2.3-1.2
+  c1.2,0,2.2,0.7,2.6,1.7l3.3,9.1l-5.7,15.7c-0.1,0.4-0.3,0.6-0.4,0.7C35.4,43.5,34.6,44,33.6,44z"/>
+      <path class="st0" mask="url(#mask-1365702188)" d="M35,44.6L35,44.6c1.2-0.1,2.1-0.9,2.5-2L53,0h16.7L54.1,42.7c-0.4,1.1-1.5,2-2.8,2H35"/>
+
+    </svg>
+  </div>
+</div>
+
+
+  </div>
+
+</section>
+
+  </div>
+  <aside class="layout--right-rail">
+    <div class="ads__right-rail-ad not-sticky">
+<div id="js-dfp-tag-8tU"  class="atf-rightrailbox">
+    
+    <script type="text/javascript">
+        googletag.cmd.push(function() {
+            googletag.display('js-dfp-tag-8tU');
+        });
+    </script>
+</div>
+</div>
+
+
+
+
+          <section class="sidebar-latest-news" role="region" aria-label="section " data-nid="46">
+  <h3 aria-label=Latest News class="sidebar-latest-news__title">Latest News</h3>
+  <div class="sidebar-latest_news__article-list-container">
+    <div class="loader-overlay">
+  
+
+
+
+<div class="svg-loader" style="width: 140px;">
+  <div class="svg-loader__container">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 70 60" xml:space="preserve">
+      <style type="text/css">
+        .st0 {
+          fill: #0090BA;
+        }
+      </style>
+      <defs>
+        <linearGradient id="mask-gradient-168851264" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="10%" stop-color="white" stop-opacity="0" />
+          <stop offset="20%" stop-color="white" stop-opacity="1" />
+          <stop offset="100%" stop-color="white" stop-opacity="1" />
+          <stop offset="110%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-503717272" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="20%" stop-color="white" stop-opacity="0" />
+          <stop offset="25%" stop-color="white" stop-opacity="1" />
+          <stop offset="75%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-168758568" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="-10%" stop-color="white" stop-opacity="0" />
+          <stop offset="0%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="1" />
+          <stop offset="90%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <mask id="mask-168851264">
+          <rect class="rect-mask__first" x="0" y="-1" width="35" height="75" fill="url(#mask-gradient-168851264)" />
+        </mask>
+        <mask id="mask-503717272">
+          <rect class="rect-mask__second" x="27" y="10" width="16" height="40" fill="url(#mask-gradient-503717272)" />
+        </mask>
+        <mask id="mask-168758568">
+          <rect class="rect-mask__third" x="35" y="-10" width="35" height="75" fill="url(#mask-gradient-168758568)" />
+        </mask>
+      </defs>
+      <path class="st0" mask="url(#mask-168851264)" d="M34.9,14.9L34.9,14.9c-1.2,0.1-2.3,0.9-2.7,2L16.7,59.6H0l15.5-42.7c0.4-1.1,1.5-2,2.8-2H34.9"/>
+      <path class="st0" mask="url(#mask-503717272)" d="M33.6,44c-1.2,0-2.1-0.7-2.6-1.7l-3.3-9.2l5.7-15.7c0.1-0.3,0.3-0.6,0.4-0.7c0.5-0.7,1.3-1.2,2.3-1.2
+  c1.2,0,2.2,0.7,2.6,1.7l3.3,9.1l-5.7,15.7c-0.1,0.4-0.3,0.6-0.4,0.7C35.4,43.5,34.6,44,33.6,44z"/>
+      <path class="st0" mask="url(#mask-168758568)" d="M35,44.6L35,44.6c1.2-0.1,2.1-0.9,2.5-2L53,0h16.7L54.1,42.7c-0.4,1.1-1.5,2-2.8,2H35"/>
+
+    </svg>
+  </div>
+</div>
+
+
+  <div class="error-state">Data is currently not available</div>
+</div>
+
+
+    <ul class="sidebar-latest-news__article-list"></ul>
+  <div>
+</section>
+
+
+    
+  </aside>
+</div>
+
+<div class="layout layout--full">
+  <div class="layout--main">
+    <div class="featured-symbols__container">
+      <div class="ads__midpage-fullwidth">
+<div id="js-dfp-tag-0qk"  class="btf-midpagefullwidth">
+    
+    <script type="text/javascript">
+        googletag.cmd.push(function() {
+            googletag.display('js-dfp-tag-0qk');
+        });
+    </script>
+</div>
+</div>
+
+
+
+      
+  <div class="featured-symbols">
+    <div class="featured-symbols__header">
+                <h2 class="module-header">
+        Trending Symbols
+      </h2>
+
+
+            <div class="featured-symbols__ads">
+        <div class="">
+<div id="js-dfp-tag-Sps"  class="btf-featuredsymbol3up-1">
+    
+    <script type="text/javascript">
+        googletag.cmd.push(function() {
+            googletag.display('js-dfp-tag-Sps');
+        });
+    </script>
+</div>
+</div>
+
+
+
+        <div class="">
+<div id="js-dfp-tag-4jg"  class="btf-featuredsymbol3up-2">
+    
+    <script type="text/javascript">
+        googletag.cmd.push(function() {
+            googletag.display('js-dfp-tag-4jg');
+        });
+    </script>
+</div>
+</div>
+
+
+
+        <div class="">
+<div id="js-dfp-tag-6pc"  class="btf-featuredsymbol3up-3">
+    
+    <script type="text/javascript">
+        googletag.cmd.push(function() {
+            googletag.display('js-dfp-tag-6pc');
+        });
+    </script>
+</div>
+</div>
+
+
+
+      </div>
+    </div>
+    <div class="featured-symbols__symbols">
+      <div class="featured-symbols__cards">
+                  <div class="featured-symbols__card">
+              <div class="symbol-ticker symbol-ticker--large-symbol" data-symbol="aapl" data-realtime="" data-asset-class="stocks" data-auto-populated="true">
+    <span>
+      <a href="/market-activity/stocks/aapl" class="symbol-ticker__symbol">
+        aapl
+      </a>
+    </span>
+    <p class="symbol-ticker__name"></p>
+    <div class="symbol-ticker__symbol-data">
+      <span class="symbol-ticker__arrow" aria-hidden="true"></span>
+      <span class="symbol-ticker__value"></span>
+      <span class="symbol-ticker__change--points"></span>
+      <span class="symbol-ticker__change--percent"></span>
+    </div>
+  </div>
+
+
+            <div class="symbol-graph" data-symbol="aapl" data-asset-class="stocks" data-auto-populated="true">
+  <div class="loader-overlay">
+  
+
+
+
+<div class="svg-loader" style="width: 140px;">
+  <div class="svg-loader__container">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 70 60" xml:space="preserve">
+      <style type="text/css">
+        .st0 {
+          fill: #0090BA;
+        }
+      </style>
+      <defs>
+        <linearGradient id="mask-gradient-1404200610" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="10%" stop-color="white" stop-opacity="0" />
+          <stop offset="20%" stop-color="white" stop-opacity="1" />
+          <stop offset="100%" stop-color="white" stop-opacity="1" />
+          <stop offset="110%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-2057480919" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="20%" stop-color="white" stop-opacity="0" />
+          <stop offset="25%" stop-color="white" stop-opacity="1" />
+          <stop offset="75%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-1894931440" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="-10%" stop-color="white" stop-opacity="0" />
+          <stop offset="0%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="1" />
+          <stop offset="90%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <mask id="mask-1404200610">
+          <rect class="rect-mask__first" x="0" y="-1" width="35" height="75" fill="url(#mask-gradient-1404200610)" />
+        </mask>
+        <mask id="mask-2057480919">
+          <rect class="rect-mask__second" x="27" y="10" width="16" height="40" fill="url(#mask-gradient-2057480919)" />
+        </mask>
+        <mask id="mask-1894931440">
+          <rect class="rect-mask__third" x="35" y="-10" width="35" height="75" fill="url(#mask-gradient-1894931440)" />
+        </mask>
+      </defs>
+      <path class="st0" mask="url(#mask-1404200610)" d="M34.9,14.9L34.9,14.9c-1.2,0.1-2.3,0.9-2.7,2L16.7,59.6H0l15.5-42.7c0.4-1.1,1.5-2,2.8-2H34.9"/>
+      <path class="st0" mask="url(#mask-2057480919)" d="M33.6,44c-1.2,0-2.1-0.7-2.6-1.7l-3.3-9.2l5.7-15.7c0.1-0.3,0.3-0.6,0.4-0.7c0.5-0.7,1.3-1.2,2.3-1.2
+  c1.2,0,2.2,0.7,2.6,1.7l3.3,9.1l-5.7,15.7c-0.1,0.4-0.3,0.6-0.4,0.7C35.4,43.5,34.6,44,33.6,44z"/>
+      <path class="st0" mask="url(#mask-1894931440)" d="M35,44.6L35,44.6c1.2-0.1,2.1-0.9,2.5-2L53,0h16.7L54.1,42.7c-0.4,1.1-1.5,2-2.8,2H35"/>
+
+    </svg>
+  </div>
+</div>
+
+
+  <div class="error-state">Data is currently not available</div>
+</div>
+
+
+  <div class="symbol-graph__content"></div>
+</div>
+
+
+          </div>
+                  <div class="featured-symbols__card">
+              <div class="symbol-ticker symbol-ticker--large-symbol" data-symbol="tsla" data-realtime="" data-asset-class="stocks" data-auto-populated="true">
+    <span>
+      <a href="/market-activity/stocks/tsla" class="symbol-ticker__symbol">
+        tsla
+      </a>
+    </span>
+    <p class="symbol-ticker__name"></p>
+    <div class="symbol-ticker__symbol-data">
+      <span class="symbol-ticker__arrow" aria-hidden="true"></span>
+      <span class="symbol-ticker__value"></span>
+      <span class="symbol-ticker__change--points"></span>
+      <span class="symbol-ticker__change--percent"></span>
+    </div>
+  </div>
+
+
+            <div class="symbol-graph" data-symbol="tsla" data-asset-class="stocks" data-auto-populated="true">
+  <div class="loader-overlay">
+  
+
+
+
+<div class="svg-loader" style="width: 140px;">
+  <div class="svg-loader__container">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 70 60" xml:space="preserve">
+      <style type="text/css">
+        .st0 {
+          fill: #0090BA;
+        }
+      </style>
+      <defs>
+        <linearGradient id="mask-gradient-474649752" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="10%" stop-color="white" stop-opacity="0" />
+          <stop offset="20%" stop-color="white" stop-opacity="1" />
+          <stop offset="100%" stop-color="white" stop-opacity="1" />
+          <stop offset="110%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-1334919771" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="20%" stop-color="white" stop-opacity="0" />
+          <stop offset="25%" stop-color="white" stop-opacity="1" />
+          <stop offset="75%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-839376761" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="-10%" stop-color="white" stop-opacity="0" />
+          <stop offset="0%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="1" />
+          <stop offset="90%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <mask id="mask-474649752">
+          <rect class="rect-mask__first" x="0" y="-1" width="35" height="75" fill="url(#mask-gradient-474649752)" />
+        </mask>
+        <mask id="mask-1334919771">
+          <rect class="rect-mask__second" x="27" y="10" width="16" height="40" fill="url(#mask-gradient-1334919771)" />
+        </mask>
+        <mask id="mask-839376761">
+          <rect class="rect-mask__third" x="35" y="-10" width="35" height="75" fill="url(#mask-gradient-839376761)" />
+        </mask>
+      </defs>
+      <path class="st0" mask="url(#mask-474649752)" d="M34.9,14.9L34.9,14.9c-1.2,0.1-2.3,0.9-2.7,2L16.7,59.6H0l15.5-42.7c0.4-1.1,1.5-2,2.8-2H34.9"/>
+      <path class="st0" mask="url(#mask-1334919771)" d="M33.6,44c-1.2,0-2.1-0.7-2.6-1.7l-3.3-9.2l5.7-15.7c0.1-0.3,0.3-0.6,0.4-0.7c0.5-0.7,1.3-1.2,2.3-1.2
+  c1.2,0,2.2,0.7,2.6,1.7l3.3,9.1l-5.7,15.7c-0.1,0.4-0.3,0.6-0.4,0.7C35.4,43.5,34.6,44,33.6,44z"/>
+      <path class="st0" mask="url(#mask-839376761)" d="M35,44.6L35,44.6c1.2-0.1,2.1-0.9,2.5-2L53,0h16.7L54.1,42.7c-0.4,1.1-1.5,2-2.8,2H35"/>
+
+    </svg>
+  </div>
+</div>
+
+
+  <div class="error-state">Data is currently not available</div>
+</div>
+
+
+  <div class="symbol-graph__content"></div>
+</div>
+
+
+          </div>
+                  <div class="featured-symbols__card">
+              <div class="symbol-ticker symbol-ticker--large-symbol" data-symbol="odfl" data-realtime="" data-asset-class="stocks" data-auto-populated="true">
+    <span>
+      <a href="/market-activity/stocks/odfl" class="symbol-ticker__symbol">
+        odfl
+      </a>
+    </span>
+    <p class="symbol-ticker__name"></p>
+    <div class="symbol-ticker__symbol-data">
+      <span class="symbol-ticker__arrow" aria-hidden="true"></span>
+      <span class="symbol-ticker__value"></span>
+      <span class="symbol-ticker__change--points"></span>
+      <span class="symbol-ticker__change--percent"></span>
+    </div>
+  </div>
+
+
+            <div class="symbol-graph" data-symbol="odfl" data-asset-class="stocks" data-auto-populated="true">
+  <div class="loader-overlay">
+  
+
+
+
+<div class="svg-loader" style="width: 140px;">
+  <div class="svg-loader__container">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 70 60" xml:space="preserve">
+      <style type="text/css">
+        .st0 {
+          fill: #0090BA;
+        }
+      </style>
+      <defs>
+        <linearGradient id="mask-gradient-2136541830" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="10%" stop-color="white" stop-opacity="0" />
+          <stop offset="20%" stop-color="white" stop-opacity="1" />
+          <stop offset="100%" stop-color="white" stop-opacity="1" />
+          <stop offset="110%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-648742922" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="20%" stop-color="white" stop-opacity="0" />
+          <stop offset="25%" stop-color="white" stop-opacity="1" />
+          <stop offset="75%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-1678972089" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="-10%" stop-color="white" stop-opacity="0" />
+          <stop offset="0%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="1" />
+          <stop offset="90%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <mask id="mask-2136541830">
+          <rect class="rect-mask__first" x="0" y="-1" width="35" height="75" fill="url(#mask-gradient-2136541830)" />
+        </mask>
+        <mask id="mask-648742922">
+          <rect class="rect-mask__second" x="27" y="10" width="16" height="40" fill="url(#mask-gradient-648742922)" />
+        </mask>
+        <mask id="mask-1678972089">
+          <rect class="rect-mask__third" x="35" y="-10" width="35" height="75" fill="url(#mask-gradient-1678972089)" />
+        </mask>
+      </defs>
+      <path class="st0" mask="url(#mask-2136541830)" d="M34.9,14.9L34.9,14.9c-1.2,0.1-2.3,0.9-2.7,2L16.7,59.6H0l15.5-42.7c0.4-1.1,1.5-2,2.8-2H34.9"/>
+      <path class="st0" mask="url(#mask-648742922)" d="M33.6,44c-1.2,0-2.1-0.7-2.6-1.7l-3.3-9.2l5.7-15.7c0.1-0.3,0.3-0.6,0.4-0.7c0.5-0.7,1.3-1.2,2.3-1.2
+  c1.2,0,2.2,0.7,2.6,1.7l3.3,9.1l-5.7,15.7c-0.1,0.4-0.3,0.6-0.4,0.7C35.4,43.5,34.6,44,33.6,44z"/>
+      <path class="st0" mask="url(#mask-1678972089)" d="M35,44.6L35,44.6c1.2-0.1,2.1-0.9,2.5-2L53,0h16.7L54.1,42.7c-0.4,1.1-1.5,2-2.8,2H35"/>
+
+    </svg>
+  </div>
+</div>
+
+
+  <div class="error-state">Data is currently not available</div>
+</div>
+
+
+  <div class="symbol-graph__content"></div>
+</div>
+
+
+          </div>
+                  <div class="featured-symbols__card">
+              <div class="symbol-ticker symbol-ticker--large-symbol" data-symbol="amzn" data-realtime="" data-asset-class="stocks" data-auto-populated="true">
+    <span>
+      <a href="/market-activity/stocks/amzn" class="symbol-ticker__symbol">
+        amzn
+      </a>
+    </span>
+    <p class="symbol-ticker__name"></p>
+    <div class="symbol-ticker__symbol-data">
+      <span class="symbol-ticker__arrow" aria-hidden="true"></span>
+      <span class="symbol-ticker__value"></span>
+      <span class="symbol-ticker__change--points"></span>
+      <span class="symbol-ticker__change--percent"></span>
+    </div>
+  </div>
+
+
+            <div class="symbol-graph" data-symbol="amzn" data-asset-class="stocks" data-auto-populated="true">
+  <div class="loader-overlay">
+  
+
+
+
+<div class="svg-loader" style="width: 140px;">
+  <div class="svg-loader__container">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 70 60" xml:space="preserve">
+      <style type="text/css">
+        .st0 {
+          fill: #0090BA;
+        }
+      </style>
+      <defs>
+        <linearGradient id="mask-gradient-794326576" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="10%" stop-color="white" stop-opacity="0" />
+          <stop offset="20%" stop-color="white" stop-opacity="1" />
+          <stop offset="100%" stop-color="white" stop-opacity="1" />
+          <stop offset="110%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-2000485787" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="20%" stop-color="white" stop-opacity="0" />
+          <stop offset="25%" stop-color="white" stop-opacity="1" />
+          <stop offset="75%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-1187246928" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="-10%" stop-color="white" stop-opacity="0" />
+          <stop offset="0%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="1" />
+          <stop offset="90%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <mask id="mask-794326576">
+          <rect class="rect-mask__first" x="0" y="-1" width="35" height="75" fill="url(#mask-gradient-794326576)" />
+        </mask>
+        <mask id="mask-2000485787">
+          <rect class="rect-mask__second" x="27" y="10" width="16" height="40" fill="url(#mask-gradient-2000485787)" />
+        </mask>
+        <mask id="mask-1187246928">
+          <rect class="rect-mask__third" x="35" y="-10" width="35" height="75" fill="url(#mask-gradient-1187246928)" />
+        </mask>
+      </defs>
+      <path class="st0" mask="url(#mask-794326576)" d="M34.9,14.9L34.9,14.9c-1.2,0.1-2.3,0.9-2.7,2L16.7,59.6H0l15.5-42.7c0.4-1.1,1.5-2,2.8-2H34.9"/>
+      <path class="st0" mask="url(#mask-2000485787)" d="M33.6,44c-1.2,0-2.1-0.7-2.6-1.7l-3.3-9.2l5.7-15.7c0.1-0.3,0.3-0.6,0.4-0.7c0.5-0.7,1.3-1.2,2.3-1.2
+  c1.2,0,2.2,0.7,2.6,1.7l3.3,9.1l-5.7,15.7c-0.1,0.4-0.3,0.6-0.4,0.7C35.4,43.5,34.6,44,33.6,44z"/>
+      <path class="st0" mask="url(#mask-1187246928)" d="M35,44.6L35,44.6c1.2-0.1,2.1-0.9,2.5-2L53,0h16.7L54.1,42.7c-0.4,1.1-1.5,2-2.8,2H35"/>
+
+    </svg>
+  </div>
+</div>
+
+
+  <div class="error-state">Data is currently not available</div>
+</div>
+
+
+  <div class="symbol-graph__content"></div>
+</div>
+
+
+          </div>
+              </div>
+    </div>
+
+                
+<div class="find-symbol find-symbol--dark" data-subdetailpath = "" data-assetclassforsearch=>
+  <div class="find-symbol__container">
+
+    
+    <form action="/symbol-search" class="find-symbol__form" autocomplete="off" role="search">
+      <div class="find-symbol__form-block">
+                  <label for="find-symbol-input" class="find-symbol__label"></label>
+                <div class="find-symbol__input-block">
+          <label class="find-symbol__input-label" for="find-symbol-input-dark">Find a Symbol</label>
+                              <input type="text" id="find-symbol-input-dark" name="q" class="find-symbol__input" placeholder="Enter Symbol" aria-describedby="findSymbolInst" aria-owns="resultsDark">
+
+          <div class="find-symbol__suggestions" id="resultsDark" role="listbox" aria-label="Search results autocomplete listing">
+            <a href="/symbol/" class="find-symbol__suggestion" role="option"></a>
+          </div>
+          <button type="submit" class="find-symbol__submit" aria-label="Click to search"></button>
+          <span id="findSymbolInst" style="display: none;">When autocomplete results are available use up and down arrows to review and enter to select.  Touch device users, explore by touch or with swipe gestures.</span>
+        </div>
+      </div>
+    </form>
+
+              </div>
+
+  <div class="find-symbol__alert visually-hidden" role="alert"></div>
+</div>
+
+
+    
+  </div>
+
+
+
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+        
+  </main>
+
+      <footer class="page__footer" role="contentinfo">
+        
+
+<footer class="footer" role="contentinfo" aria-label="footer">
+  <div class="footer__content">
+                <div class="footer__form form">
+        <fieldset class="footer__fieldset">
+          <legend class="footer__form-header">Market Makers</legend>
+          <div class="footer__form-container">
+            <label class="footer__form-label" for="footer-input">Sign up for our newsletter to get the latest on the transformative forces shaping the global economy, delivered every Thursday.</label>
+              
+<div class="eloqua-form">
+  <div><form method="post" name="MarketMakerNewsletterSignUp" action="https://s1981692173.t.eloqua.com/e/f2" onsubmit="return handleFormSubmit(this)" id="form1783" class="elq-form" ><input value="MarketMakerNewsletterSignUp" type="hidden" name="elqFormName"  /><input value="1981692173" type="hidden" name="elqSiteId"  /><input name="elqCampaignId" type="hidden"  /><div id="formElement0" class="sc-view form-design-field sc-static-layout  sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><input id="field0" type="hidden" name="hiddenField3" value="1783"  /></p></div></div></div><div id="formElement1" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><label for="field1" class="label-position top " >Email Address<span class="required" >*</span></label><input id="field1" name="emailAddress" type="text" value="" class="field-size-top-large"  /></p></div></div></div><div id="formElement2" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><label for="field2" class="label-position top " >Country<span class="required" >*</span></label><select id="field2" name="country" data-value="" class="field-size-top-large" ><option value="" >Please select…</option><option value="United States" >United States</option><option value="Afghanistan" >Afghanistan</option><option value="Åland Islands" >Åland Islands</option><option value="Albania" >Albania</option><option value="Algeria" >Algeria</option><option value="American Samoa" >American Samoa</option><option value="Andorra" >Andorra</option><option value="Angola" >Angola</option><option value="Anguilla" >Anguilla</option><option value="Antarctica" >Antarctica</option><option value="Antigua and Barbuda" >Antigua and Barbuda</option><option value="Argentina" >Argentina</option><option value="Armenia" >Armenia</option><option value="Aruba" >Aruba</option><option value="Australia" >Australia</option><option value="Austria" >Austria</option><option value="Azerbaijan" >Azerbaijan</option><option value="Bahamas" >Bahamas</option><option value="Bahrain" >Bahrain</option><option value="Bangladesh" >Bangladesh</option><option value="Barbados" >Barbados</option><option value="Belarus" >Belarus</option><option value="Belgium" >Belgium</option><option value="Belize" >Belize</option><option value="Benin" >Benin</option><option value="Bermuda" >Bermuda</option><option value="Bhutan" >Bhutan</option><option value="Bolivia, Plurinational State of" >Bolivia, Plurinational State of</option><option value="Bonaire, Sint Eustatius and Saba" >Bonaire, Sint Eustatius and Saba</option><option value="Bosnia and Herzegovina" >Bosnia and Herzegovina</option><option value="Botswana" >Botswana</option><option value="Bouvet Island" >Bouvet Island</option><option value="Brazil" >Brazil</option><option value="British Indian Ocean Territory" >British Indian Ocean Territory</option><option value="Brunei Darussalam" >Brunei Darussalam</option><option value="Bulgaria" >Bulgaria</option><option value="Burkina Faso" >Burkina Faso</option><option value="Burundi" >Burundi</option><option value="Cambodia" >Cambodia</option><option value="Cameroon" >Cameroon</option><option value="Canada" >Canada</option><option value="Cape Verde" >Cape Verde</option><option value="Cayman Islands" >Cayman Islands</option><option value="Central African Republic" >Central African Republic</option><option value="Chad" >Chad</option><option value="Chile" >Chile</option><option value="China" >China</option><option value="Christmas Island" >Christmas Island</option><option value="Cocos (Keeling) Islands" >Cocos (Keeling) Islands</option><option value="Colombia" >Colombia</option><option value="Comoros" >Comoros</option><option value="Congo" >Congo</option><option value="Congo, the Democratic Republic of the" >Congo, the Democratic Republic of the</option><option value="Cook Islands" >Cook Islands</option><option value="Costa Rica" >Costa Rica</option><option value="Côte d'Ivoire" >Côte d'Ivoire</option><option value="Croatia" >Croatia</option><option value="Cuba" >Cuba</option><option value="Curaçao" >Curaçao</option><option value="Cyprus" >Cyprus</option><option value="Czech Republic" >Czech Republic</option><option value="Denmark" >Denmark</option><option value="Djibouti" >Djibouti</option><option value="Dominica" >Dominica</option><option value="Dominican Republic" >Dominican Republic</option><option value="Ecuador" >Ecuador</option><option value="Egypt" >Egypt</option><option value="El Salvador" >El Salvador</option><option value="Equatorial Guinea" >Equatorial Guinea</option><option value="Eritrea" >Eritrea</option><option value="Estonia" >Estonia</option><option value="Ethiopia" >Ethiopia</option><option value="Falkland Islands (Malvinas)" >Falkland Islands (Malvinas)</option><option value="Faroe Islands" >Faroe Islands</option><option value="Fiji" >Fiji</option><option value="Finland" >Finland</option><option value="France" >France</option><option value="French Guiana" >French Guiana</option><option value="French Polynesia" >French Polynesia</option><option value="French Southern Territories" >French Southern Territories</option><option value="Gabon" >Gabon</option><option value="Gambia" >Gambia</option><option value="Georgia" >Georgia</option><option value="Germany" >Germany</option><option value="Ghana" >Ghana</option><option value="Gibraltar" >Gibraltar</option><option value="Greece" >Greece</option><option value="Greenland" >Greenland</option><option value="Grenada" >Grenada</option><option value="Guadeloupe" >Guadeloupe</option><option value="Guam" >Guam</option><option value="Guatemala" >Guatemala</option><option value="Guernsey" >Guernsey</option><option value="Guinea" >Guinea</option><option value="Guinea-Bissau" >Guinea-Bissau</option><option value="Guyana" >Guyana</option><option value="Haiti" >Haiti</option><option value="Heard Island and McDonald Islands" >Heard Island and McDonald Islands</option><option value="Holy See (Vatican City State)" >Holy See (Vatican City State)</option><option value="Honduras" >Honduras</option><option value="Hong Kong" >Hong Kong</option><option value="Hungary" >Hungary</option><option value="Iceland" >Iceland</option><option value="India" >India</option><option value="Indonesia" >Indonesia</option><option value="Iran, Islamic Republic of" >Iran, Islamic Republic of</option><option value="Iraq" >Iraq</option><option value="Ireland" >Ireland</option><option value="Isle of Man" >Isle of Man</option><option value="Israel" >Israel</option><option value="Italy" >Italy</option><option value="Jamaica" >Jamaica</option><option value="Japan" >Japan</option><option value="Jersey" >Jersey</option><option value="Jordan" >Jordan</option><option value="Kazakhstan" >Kazakhstan</option><option value="Kenya" >Kenya</option><option value="Kiribati" >Kiribati</option><option value="Korea, Democratic People's Republic of" >Korea, Democratic People's Republic of</option><option value="Korea, Republic of" >Korea, Republic of</option><option value="Kuwait" >Kuwait</option><option value="Kyrgyzstan" >Kyrgyzstan</option><option value="Lao People's Democratic Republic" >Lao People's Democratic Republic</option><option value="Latvia" >Latvia</option><option value="Lebanon" >Lebanon</option><option value="Lesotho" >Lesotho</option><option value="Liberia" >Liberia</option><option value="Libyan Arab Jamahiriya" >Libyan Arab Jamahiriya</option><option value="Liechtenstein" >Liechtenstein</option><option value="Lithuania" >Lithuania</option><option value="Luxembourg" >Luxembourg</option><option value="Macao" >Macao</option><option value="Macedonia, the former Yugoslav Republic of" >Macedonia, the former Yugoslav Republic of</option><option value="Madagascar" >Madagascar</option><option value="Malawi" >Malawi</option><option value="Malaysia" >Malaysia</option><option value="Maldives" >Maldives</option><option value="Mali" >Mali</option><option value="Malta" >Malta</option><option value="Marshall Islands" >Marshall Islands</option><option value="Martinique" >Martinique</option><option value="Mauritania" >Mauritania</option><option value="Mauritius" >Mauritius</option><option value="Mayotte" >Mayotte</option><option value="Mexico" >Mexico</option><option value="Micronesia, Federated States of" >Micronesia, Federated States of</option><option value="Moldova, Republic of" >Moldova, Republic of</option><option value="Monaco" >Monaco</option><option value="Mongolia" >Mongolia</option><option value="Montenegro" >Montenegro</option><option value="Montserrat" >Montserrat</option><option value="Morocco" >Morocco</option><option value="Mozambique" >Mozambique</option><option value="Myanmar" >Myanmar</option><option value="Namibia" >Namibia</option><option value="Nauru" >Nauru</option><option value="Nepal" >Nepal</option><option value="Netherlands" >Netherlands</option><option value="New Caledonia" >New Caledonia</option><option value="New Zealand" >New Zealand</option><option value="Nicaragua" >Nicaragua</option><option value="Niger" >Niger</option><option value="Nigeria" >Nigeria</option><option value="Niue" >Niue</option><option value="Norfolk Island" >Norfolk Island</option><option value="Northern Mariana Islands" >Northern Mariana Islands</option><option value="Norway" >Norway</option><option value="Oman" >Oman</option><option value="Pakistan" >Pakistan</option><option value="Palau" >Palau</option><option value="Palestinian Territory, Occupied" >Palestinian Territory, Occupied</option><option value="Panama" >Panama</option><option value="Papua New Guinea" >Papua New Guinea</option><option value="Paraguay" >Paraguay</option><option value="Peru" >Peru</option><option value="Philippines" >Philippines</option><option value="Pitcairn" >Pitcairn</option><option value="Poland" >Poland</option><option value="Portugal" >Portugal</option><option value="Puerto Rico" >Puerto Rico</option><option value="Qatar" >Qatar</option><option value="Reunion" >Reunion</option><option value="Romania" >Romania</option><option value="Russian Federation" >Russian Federation</option><option value="Rwanda" >Rwanda</option><option value="Saint Barthélemy" >Saint Barthélemy</option><option value="Saint Helena, Ascension and Tristan da Cunha" >Saint Helena, Ascension and Tristan da Cunha</option><option value="Saint Kitts and Nevis" >Saint Kitts and Nevis</option><option value="Saint Lucia" >Saint Lucia</option><option value="Saint Martin (French part)" >Saint Martin (French part)</option><option value="Saint Pierre and Miquelon" >Saint Pierre and Miquelon</option><option value="Saint Vincent and the Grenadines" >Saint Vincent and the Grenadines</option><option value="Samoa" >Samoa</option><option value="San Marino" >San Marino</option><option value="Sao Tome and Principe" >Sao Tome and Principe</option><option value="Saudi Arabia" >Saudi Arabia</option><option value="Senegal" >Senegal</option><option value="Serbia" >Serbia</option><option value="Seychelles" >Seychelles</option><option value="Sierra Leone" >Sierra Leone</option><option value="Singapore" >Singapore</option><option value="Sint Maarten (Dutch part)" >Sint Maarten (Dutch part)</option><option value="Slovakia" >Slovakia</option><option value="Slovenia" >Slovenia</option><option value="Solomon Islands" >Solomon Islands</option><option value="Somalia" >Somalia</option><option value="South Africa" >South Africa</option><option value="South Georgia and the South Sandwich Islands" >South Georgia and the South Sandwich Islands</option><option value="South Sudan" >South Sudan</option><option value="Spain" >Spain</option><option value="Sri Lanka" >Sri Lanka</option><option value="Sudan" >Sudan</option><option value="Suriname" >Suriname</option><option value="Svalbard and Jan Mayen" >Svalbard and Jan Mayen</option><option value="Swaziland" >Swaziland</option><option value="Sweden" >Sweden</option><option value="Switzerland" >Switzerland</option><option value="Syrian Arab Republic" >Syrian Arab Republic</option><option value="Taiwan" >Taiwan</option><option value="Tajikistan" >Tajikistan</option><option value="Tanzania, United Republic of" >Tanzania, United Republic of</option><option value="Thailand" >Thailand</option><option value="Timor-Leste" >Timor-Leste</option><option value="Togo" >Togo</option><option value="Tokelau" >Tokelau</option><option value="Tonga" >Tonga</option><option value="Trinidad and Tobago" >Trinidad and Tobago</option><option value="Tunisia" >Tunisia</option><option value="Turkey" >Turkey</option><option value="Turkmenistan" >Turkmenistan</option><option value="Turks and Caicos Islands" >Turks and Caicos Islands</option><option value="Tuvalu" >Tuvalu</option><option value="Uganda" >Uganda</option><option value="Ukraine" >Ukraine</option><option value="United Arab Emirates" >United Arab Emirates</option><option value="United Kingdom" >United Kingdom</option><option value="United States Minor Outlying Islands" >United States Minor Outlying Islands</option><option value="Uruguay" >Uruguay</option><option value="Uzbekistan" >Uzbekistan</option><option value="Vanuatu" >Vanuatu</option><option value="Venezuela, Bolivarian Republic of" >Venezuela, Bolivarian Republic of</option><option value="Viet Nam" >Viet Nam</option><option value="Virgin Islands (British)" >Virgin Islands (British)</option><option value="Virgin Islands, U.S." >Virgin Islands, U.S.</option><option value="Wallis and Futuna" >Wallis and Futuna</option><option value="Western Sahara" >Western Sahara</option><option value="Yemen" >Yemen</option><option value="Zambia" >Zambia</option><option value="Zimbabwe" >Zimbabwe</option><option value="--------------" ></option></select></p></div></div></div><div id="formElement3" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" ><div class="field-wrapper" ></div><div class="section-break" ><h3 class="heading" >Please opt-in to receive news and information about Nasdaq’s services.</h3><label class="instructions default other" >If you do not opt-in you will not receive any emails from Nasdaq.</label></div></div><div id="formElement4" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><span class="checkbox-span field-size-top-large" ><span class="list-order oneColumn" ><input name="elq_optin" type="checkbox" value="on"  /><label class="checkbox-label" >Yes!  I would like to receive Nasdaq communications related to Products, Industry News and Events.</label></span></span><label class="instructions default other" >You can always change your preferences or unsubscribe and your contact information is covered by our Privacy Policy.</label></p></div></div></div><div id="formElement5" class="sc-view form-design-field sc-static-layout  sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><input id="field5" type="hidden" name="productFamily" value=""  /></p></div></div></div><div id="formElement6" class="sc-view form-design-field sc-static-layout  sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><input id="field6" type="hidden" name="hiddenField" value=""  /></p></div></div></div><div id="formElement7" class="sc-view form-design-field sc-static-layout  sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><input id="field7" type="hidden" name="SFDCCampaignid" value=""  /></p></div></div></div><div id="formElement8" class="sc-view form-design-field sc-static-layout  sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><input id="field8" type="hidden" name="sourcemostrecent" value=""  /></p></div></div></div><div id="formElement9" class="sc-view form-design-field sc-static-layout  sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><input id="field9" type="hidden" name="channelmostrecent" value=""  /></p></div></div></div><div id="formElement10" class="sc-view form-design-field sc-static-layout  sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><input id="field10" type="hidden" name="offermostrecent" value=""  /></p></div></div></div><div id="formElement11" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><label for="field11" class="label-position top " >elq_hp<span class="required" >*</span></label><input id="field11" name="elq_hp" type="text" value="" class="field-size-top-large"  /></p></div></div></div><div id="formElement12" class="sc-view form-design-field sc-static-layout  sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><input id="field12" type="hidden" name="ppc-campaignid" value=""  /></p></div></div></div><div id="formElement13" class="sc-view form-design-field sc-static-layout  sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><input id="field13" type="hidden" name="gclid" value=""  /></p></div></div></div><div id="formElement14" class="sc-view form-design-field sc-static-layout  sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><input id="field14" type="hidden" name="hiddenField2" value="Market Maker Newsletter Sign up"  /></p></div></div></div><div id="formElement15" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" ><div class="field-wrapper" ></div><div class="individual field-wrapper" ><div class="_100 field-style" ><p class="field-p" ><input type="submit" value="Submit" class="submit-button" style="font-size: 100%; height: 24px; width: 100px"  /></p></div></div></div></form><style type="text/css" media="screen" >.elq-form .loader{ vertical-align: middle; display: inline-block; margin-left:10px; border: 3px solid #f3f3f3;  border-radius: 50%;  border-top: 3px solid #3498db;  width: 20px;  height: 20px;  -webkit-animation: spin 2s linear infinite; animation: spin 2s linear infinite;}
+@-webkit-keyframes spin {  0% { -webkit-transform: rotate(0deg); }  100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin {  0% { transform: rotate(0deg); }  100% { transform: rotate(360deg); }}
+.LV_validation_message{ font-weight:bold; margin: 0 0 0 5px; }
+.LV_valid{ color:#00CC00; display:none; }
+.LV_invalid{ color:#CC0000; font-size:10px; }
+.LV_valid_field, input.LV_valid_field:hover, input.LV_valid_field:active, textarea.LV_valid_field:hover, textarea.LV_valid_field:active { outline: 1px solid #00CC00; }
+.LV_invalid_field, input.LV_invalid_field:hover, input.LV_invalid_field:active, textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active { outline: 1px solid #CC0000; }</style><script id="formScript" type="text/javascript">function decode(str){ str = str.replace(/&/g, "&"); str = str.replace(/"/g, "\""); str = str.replace(/</g, "<");return str;} var checkDom1783; function isDomLoadedFor1783() { if (document.readyState === "complete") { window.clearTimeout(checkDom1783); var s = document.createElement("script");s.setAttribute("id", "overlayFormScript1783");s.innerHTML = decode(document.getElementById("scriptContainer1783").innerText); document.body.appendChild(s);} else { checkDom1783 = window.setTimeout(isDomLoadedFor1783, 500); }} isDomLoadedFor1783(); </script><span id="scriptContainer1783" style="display:none">var dom1 = document.querySelector('#form1783 #field1');var field1 = new LiveValidation(dom1, {validMessage: &quot;&quot;, onlyOnBlur: false, wait: 300});field1.add(Validate.Presence, {failureMessage:&quot;This field is required&quot;});field1.add(Validate.Format, {pattern: /^([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})$/i, failureMessage: &quot;A valid email address is required&quot;});var dom2 = document.querySelector('#form1783 #field2');var field2 = new LiveValidation(dom2, {validMessage: &quot;&quot;, onlyOnBlur: false, wait: 300});field2.add(Validate.Presence, {failureMessage:&quot;This field is required&quot;});var dom11 = document.querySelector('#form1783 #field11');var field11 = new LiveValidation(dom11, {validMessage: &quot;&quot;, onlyOnBlur: false, wait: 300});field11.add(Validate.Custom, {against: function(value) {return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);}, failureMessage: &quot;Value must not contain any URL's&quot;});field11.add(Validate.Presence, {failureMessage:&quot;This field is required&quot;});field11.add(Validate.Length, {tooShortMessage:&quot;Invalid length for field value&quot;, tooLongMessage: &quot;Invalid length for field value&quot;,  minimum: 4, maximum: 4});function handleFormSubmit(ele) { var submitButton = ele.querySelector('input[type=submit]'); var spinner = document.createElement('span'); spinner.setAttribute('class', 'loader'); submitButton.setAttribute('disabled', true); submitButton.style.cursor = 'wait'; submitButton.parentNode.appendChild(spinner); return true; }function resetSubmitButton(e){ var submitButtons = e.target.form.getElementsByClassName('submit-button'); for(var i=0;i&lt;submitButtons.length;i++){  submitButtons[i].disabled = false; }  }function addChangeHandler(elements){  for(var i=0; i&lt;elements.length; i++){   elements[i].addEventListener('change', resetSubmitButton); }  }var form = document.getElementById('form1783'); addChangeHandler(form.getElementsByTagName('input')); addChangeHandler(form.getElementsByTagName('select')); addChangeHandler(form.getElementsByTagName('textarea'));var nodes = document.querySelectorAll('#form1783 input[data-subscription]');  if (nodes) { for (var i = 0, len = nodes.length; i &lt; len; i++) {var status = nodes[i].dataset ? nodes[i].dataset.subscription : nodes[i].getAttribute('data-subscription'); if(status ==='true') {nodes[i].checked = true;}}};var nodes = document.querySelectorAll('#form1783 select[data-value]');   if (nodes) { for (var i = 0; i &lt; nodes.length; i++) { var node = nodes[i]; var selectedValue = node.dataset ? node.dataset.value : node.getAttribute('data-value'); if (selectedValue) { for (var j = 0; j &lt; node.options.length; j++) { if(node.options[j].value === selectedValue) { node.options[j].selected = 'selected';break;}}}}}</span></div>
+</div>
+
+
+
+            <div class="footer__form-success">
+              <span class="footer__form-success-check"></span>
+              Thanks for submitting!
+            </div>
+          </div>
+        </fieldset>
+      </div>
+          
+    <div class="footer__links">
+      <ul class="footer__links-primary">
+                  <li class="footer__link-primary">
+            <a href="http://ir.nasdaq.com/" title="Nasdaq Investor Relations Information">
+              Investor Relations
+            </a>
+          </li>
+                  <li class="footer__link-primary">
+            <a href="/contact-us" title="Contact Nasdaq">
+              Contact
+            </a>
+          </li>
+                  <li class="footer__link-primary">
+            <a href="/about/careers" title="Careers at Nasdaq">
+              Careers
+            </a>
+          </li>
+                  <li class="footer__link-primary">
+            <a href="/mediakit" title="">
+              Advertise
+            </a>
+          </li>
+                  <li class="footer__link-primary">
+            <a href="/marketsite" title="">
+              Nasdaq MarketSIte
+            </a>
+          </li>
+                  <li class="footer__link-primary">
+            <a href="/trust-center" title="">
+              Trust Center
+            </a>
+          </li>
+              </ul>
+
+      <ul class="footer__links-secondary">
+                  <li class="footer__link-secondary">
+            <a href="/privacy-statement" title="">
+              Privacy
+            </a>
+          </li>
+                  <li class="footer__link-secondary">
+            <a href="/cookie-statement" title="">
+              Cookies
+            </a>
+          </li>
+                  <li class="footer__link-secondary">
+            <a href="/legal" title="">
+              Legal
+            </a>
+          </li>
+              </ul>
+    </div>
+
+    <ul class="footer__links-social">
+              <li class="footer__link-social">
+          <a href="https://www.facebook.com/Nasdaq/" title="Visit NASDAQ on Facebook" aria-label="Facebook"></a>
+        </li>
+              <li class="footer__link-social">
+          <a href="https://twitter.com/Nasdaq" title="Visit NASDAQ on Twitter" aria-label="Twitter"></a>
+        </li>
+              <li class="footer__link-social">
+          <a href="https://www.linkedin.com/company/nasdaq/" title="Visit NASDAQ on LinkedIn" aria-label="LinkedIn"></a>
+        </li>
+              <li class="footer__link-social">
+          <a href="https://www.instagram.com/nasdaq" title="Visit NASDAQ on Instagram" aria-label="Instagram"></a>
+        </li>
+              <li class="footer__link-social">
+          <a href="https://www.pinterest.com/nasdaq/" title="Visit NASDAQ on Pinterest" aria-label="Pinterest"></a>
+        </li>
+          </ul>
+
+    <a href="/" class="footer__logo">
+      <img src="/themes/nsdq/dist/assets/images/logo-half-white.svg" alt="Nasdaq Logo" />
+    </a>
+
+    <p class="footer__legal">&copy; 2019, Nasdaq, Inc. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+
+
+
+
+
+    </footer>
+  
+      <section class="watchlist" data-initial-open="false">
+  <button class="watchlist__button" aria-label="Open Watchlist">
+    <span class="watchlist__button-icon" aria-hidden="true"></span>
+    <span class="watchlist__button-text">Watchlist</span>
+    <div class="watchlist__button-toggle" aria-hidden="true"></div>
+  </button>
+
+  <div class="watchlist__content" aria-hidden="true">
+    <header class="watchlist__content-header">
+      <button class="watchlist__add" aria-label="Add a Symbol">Add a Symbol</button>
+      <a href="https://portfolio.nasdaq.com" class="watchlist__portfolio">My Portfolio</a>
+      <button class="watchlist__close" aria-label="Close Watchlist"></button>
+      <button class="watchlist__edit" aria-label="Edit Watchlist">Edit</button>
+    </header>
+
+    <div class="watchlist__symbols">
+
+      <div class="watchlist__glide glide">
+
+        
+
+<div class="carousel-controls" data-glide-el="controls">
+  <div class="carousel-controls__prev" data-glide-dir="<">
+    
+
+
+
+
+
+  <button class="arrow-cta" aria-label="Previous">
+
+  <span class="arrow-cta__text" aria-label=""></span>
+  <span class="arrow-cta__icon" aria-hidden="true"></span>
+
+  </button>
+
+
+  </div>
+
+  <div class="carousel-controls__count" data-glide-el="count">
+    <span class="carousel-controls__current" data-glide-el="current"></span>/<span class="carousel-controls__total" data-glide-el="total"></span>
+  </div>
+
+  <div class="carousel-controls__next" data-glide-dir=">">
+    
+
+
+
+
+
+  <button class="arrow-cta" aria-label="Next">
+
+  <span class="arrow-cta__text" aria-label=""></span>
+  <span class="arrow-cta__icon" aria-hidden="true"></span>
+
+  </button>
+
+
+  </div>
+</div>
+
+
+
+        <div class="watchlist__track glide__track" data-glide-el="track">
+          <ul class="watchlist__slides glide__slides">
+
+            <li class="watchlist__slide glide__slide watchlist__slide--add">
+              <button aria-label="Add a Symbol"></button>
+            </li>
+
+                        <li class="watchlist__slide glide__slide watchlist__slide--clone" aria-hidden="true">
+              <button class="watchlist__slide-remove" aria-hidden="true" aria-label="Remove from Watchlist"></button>
+              <span class="watchlist__slide-icon" aria-hidden="true"></span>
+              <a class="watchlist__slide-link">
+                <span class="watchlist__slide-name"></span>
+                <p class="watchlist__slide-price"></p>
+                <p class="watchlist__slide-change-container">
+                  <span class="watchlist__slide-change"></span>
+                  <span class="watchlist__slide-change-percent"></span>
+                <p>
+              </a>
+              <div class="watchlist__slide-overlay" aria-hidden="true"></div>
+            </li>
+                      </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="watchlist__empty" aria-hidden="true">
+      <span class="watchlist__empty-text">Your Watchlist is empty.</span>
+      <button class="watchlist__empty-add" aria-label="Add a Symbol">Add a Symbol</button>
+      <button class="watchlist__empty-close" aria-label="Close Watchlist"></button>
+    </div>
+
+    <div class="watchlist__loader" aria-hidden="true">
+      
+
+
+
+<div class="svg-loader" style="width: 120px;">
+  <div class="svg-loader__container">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 70 60" xml:space="preserve">
+      <style type="text/css">
+        .st0 {
+          fill: #0090BA;
+        }
+      </style>
+      <defs>
+        <linearGradient id="mask-gradient-808932796" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="10%" stop-color="white" stop-opacity="0" />
+          <stop offset="20%" stop-color="white" stop-opacity="1" />
+          <stop offset="100%" stop-color="white" stop-opacity="1" />
+          <stop offset="110%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-1373192546" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="20%" stop-color="white" stop-opacity="0" />
+          <stop offset="25%" stop-color="white" stop-opacity="1" />
+          <stop offset="75%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-1099846314" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="-10%" stop-color="white" stop-opacity="0" />
+          <stop offset="0%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="1" />
+          <stop offset="90%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <mask id="mask-808932796">
+          <rect class="rect-mask__first" x="0" y="-1" width="35" height="75" fill="url(#mask-gradient-808932796)" />
+        </mask>
+        <mask id="mask-1373192546">
+          <rect class="rect-mask__second" x="27" y="10" width="16" height="40" fill="url(#mask-gradient-1373192546)" />
+        </mask>
+        <mask id="mask-1099846314">
+          <rect class="rect-mask__third" x="35" y="-10" width="35" height="75" fill="url(#mask-gradient-1099846314)" />
+        </mask>
+      </defs>
+      <path class="st0" mask="url(#mask-808932796)" d="M34.9,14.9L34.9,14.9c-1.2,0.1-2.3,0.9-2.7,2L16.7,59.6H0l15.5-42.7c0.4-1.1,1.5-2,2.8-2H34.9"/>
+      <path class="st0" mask="url(#mask-1373192546)" d="M33.6,44c-1.2,0-2.1-0.7-2.6-1.7l-3.3-9.2l5.7-15.7c0.1-0.3,0.3-0.6,0.4-0.7c0.5-0.7,1.3-1.2,2.3-1.2
+  c1.2,0,2.2,0.7,2.6,1.7l3.3,9.1l-5.7,15.7c-0.1,0.4-0.3,0.6-0.4,0.7C35.4,43.5,34.6,44,33.6,44z"/>
+      <path class="st0" mask="url(#mask-1099846314)" d="M35,44.6L35,44.6c1.2-0.1,2.1-0.9,2.5-2L53,0h16.7L54.1,42.7c-0.4,1.1-1.5,2-2.8,2H35"/>
+
+    </svg>
+  </div>
+</div>
+
+
+    </div>
+  </div>
+</section>
+
+<section class="watchlist-add-overlay" aria-hidden="true">
+  <div class="watchlist-add-overlay__content">
+    <header class="watchlist-add-overlay__header">
+      <button class="watchlist-add-overlay__back" aria-label="Back"><span class="watchlist-add-overlay__back-text">Back</span></button>
+      <button class="watchlist-add-overlay__close" aria-label="Close Watchlist"></button>
+    </header>
+
+    <form class="watchlist-add-overlay__form">
+      <label class="watchlist-add-overlay__label">Add a symbol to your watchlist</label>
+      <div class="watchlist-add-overlay__input-wrapper">
+        <input class="watchlist-add-overlay__input" placeholder="Enter Symbol">
+      </div>
+    </form>
+
+    <div class="watchlist-add-overlay__unavailable">
+      <button class="watchlist-add-overlay__unavailable-close"></button>
+      <span class="watchlist-add-overlay__unavailable-text"></span>
+    </div>
+
+    <div class="watchlist-add-overlay__results watchlist-add-overlay__results">
+      <header class="watchlist-add-overlay__results-header">Most Active</header>
+      <ul class="watchlist-add-overlay__results-items"></ul>
+                        <li class="watchlist-add-overlay__results-item watchlist-add-overlay__results-item--clone" aria-hidden="true">
+        <span class="watchlist-add-overlay__symbol"></span>
+        <span class="watchlist-add-overlay__name"></span>
+        <button class="watchlist-add-overlay__add" aria-label="Add to Watchlist" data-symbol=""></button>
+      </li>
+
+      <div class="watchlist-add-overlay__loader" aria-hidden="true">
+        
+
+
+
+<div class="svg-loader" style="width: 120px;">
+  <div class="svg-loader__container">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 70 60" xml:space="preserve">
+      <style type="text/css">
+        .st0 {
+          fill: #0090BA;
+        }
+      </style>
+      <defs>
+        <linearGradient id="mask-gradient-1712552130" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="10%" stop-color="white" stop-opacity="0" />
+          <stop offset="20%" stop-color="white" stop-opacity="1" />
+          <stop offset="100%" stop-color="white" stop-opacity="1" />
+          <stop offset="110%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-36328344" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="20%" stop-color="white" stop-opacity="0" />
+          <stop offset="25%" stop-color="white" stop-opacity="1" />
+          <stop offset="75%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <linearGradient id="mask-gradient-223731477" gradientUnits="userSpaceOnUse" x2="0" y2="100%">
+          <stop offset="-10%" stop-color="white" stop-opacity="0" />
+          <stop offset="0%" stop-color="white" stop-opacity="1" />
+          <stop offset="80%" stop-color="white" stop-opacity="1" />
+          <stop offset="90%" stop-color="white" stop-opacity="0" />
+        </linearGradient>
+        <mask id="mask-1712552130">
+          <rect class="rect-mask__first" x="0" y="-1" width="35" height="75" fill="url(#mask-gradient-1712552130)" />
+        </mask>
+        <mask id="mask-36328344">
+          <rect class="rect-mask__second" x="27" y="10" width="16" height="40" fill="url(#mask-gradient-36328344)" />
+        </mask>
+        <mask id="mask-223731477">
+          <rect class="rect-mask__third" x="35" y="-10" width="35" height="75" fill="url(#mask-gradient-223731477)" />
+        </mask>
+      </defs>
+      <path class="st0" mask="url(#mask-1712552130)" d="M34.9,14.9L34.9,14.9c-1.2,0.1-2.3,0.9-2.7,2L16.7,59.6H0l15.5-42.7c0.4-1.1,1.5-2,2.8-2H34.9"/>
+      <path class="st0" mask="url(#mask-36328344)" d="M33.6,44c-1.2,0-2.1-0.7-2.6-1.7l-3.3-9.2l5.7-15.7c0.1-0.3,0.3-0.6,0.4-0.7c0.5-0.7,1.3-1.2,2.3-1.2
+  c1.2,0,2.2,0.7,2.6,1.7l3.3,9.1l-5.7,15.7c-0.1,0.4-0.3,0.6-0.4,0.7C35.4,43.5,34.6,44,33.6,44z"/>
+      <path class="st0" mask="url(#mask-223731477)" d="M35,44.6L35,44.6c1.2-0.1,2.1-0.9,2.5-2L53,0h16.7L54.1,42.7c-0.4,1.1-1.5,2-2.8,2H35"/>
+
+    </svg>
+  </div>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="watchlist-live-region" role="alert" aria-live="assertive" aria-atomic="true" aria-relevant="all"></div>
+
+
+  
+</div>
+  </div>
+
+    
+    <script src="/sites/acquia.prod/files/js/js_9f7xRTLPveNzaUY351E7L1vxbHv5FrwSLnuFvnxwrXY.js"></script>
+<script src="/themes/nsdq/dist/highcharts.js?q0y7sz"></script>
+<script src="/sites/acquia.prod/files/js/js_cXqQTCLa6-VqRkRKpvpoUdVSqQryXceKesddpCBYPa8.js"></script>
+<script src="/themes/nsdq/dist/react.vendor.js?q0y7sz"></script>
+<script src="/sites/acquia.prod/files/js/js_rqXvT_43N6DSSPSAp9-noApvEZHJM-5IvqoKa5QGXAc.js"></script>
+
+    <div class="grid-guides">
+  <div class="grid-guides__container">
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+    <div class="grid-guides__row"></div>
+  </div>
+</div>
+
+  </body>
+</html>

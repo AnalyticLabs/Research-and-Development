@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="message"
+            type="com.healthnavigatorapis.portal.chatbot.data.local.model.Message" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/chatLeftLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/leftChatIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ic_user_left"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="@{message.user.chatName}"
+            android:textAlignment="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/leftChatMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:background="@drawable/border_left_chat"
+            android:padding="5dp"
+            app:textHtml="@{message.text}"
+            android:textColor="@android:color/black"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintEnd_toStartOf="@+id/centerGuideline"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toEndOf="@+id/leftChatIcon"
+            app:layout_constraintTop_toTopOf="@+id/leftChatIcon" />
+
+        <net.cachapa.expandablelayout.ExpandableLayout
+            android:id="@+id/leftChatChoice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical"
+            app:layout_constrainedWidth="true"
+            app:layout_constraintEnd_toStartOf="@+id/centerGuideline"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toStartOf="@+id/leftChatMessage"
+            app:layout_constraintTop_toBottomOf="@+id/leftChatMessage">
+
+            <com.healthnavigatorapis.portal.chatbot.ui.view.ChoiceListLayout
+                android:id="@+id/leftChatChoices"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/chat_choice_border"
+                android:visibility="gone"
+                app:setChoice="@{message.choices}" />
+        </net.cachapa.expandablelayout.ExpandableLayout>
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/centerGuideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.60" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

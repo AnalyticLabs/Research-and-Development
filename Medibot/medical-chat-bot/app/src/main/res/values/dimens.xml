@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="sign_in_width">200dp</dimen>
+    <dimen name="sign_in_height">36dp</dimen>
+    <dimen name="sign_in_size">16sp</dimen>
+    <dimen name="sign_in_padding_text">16dp</dimen>
+    <dimen name="login_button_corner_radius">32dp</dimen>
+    <dimen name="login_button_height">56dp</dimen>
+    <dimen name="logo_bottom_size">50dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="logo_size">72dp</dimen>
+    <dimen name="home_text_layout_size">64dp</dimen>
+    <dimen name="home_text_padding">16dp</dimen>
+    <dimen name="home_text_padding_top">20dp</dimen>
+    <dimen name="home_text_size">18sp</dimen>
+    <dimen name="padding_health_start">32dp</dimen>
+    <dimen name="padding_health_end">32dp</dimen>
+    <dimen name="padding_symptoms_start">32dp</dimen>
+    <dimen name="padding_symptoms_end">68dp</dimen>
+    <dimen name="padding_utilities_start">32dp</dimen>
+    <dimen name="padding_utilities_end">144dp</dimen>
+    <dimen name="padding_settings_start">32dp</dimen>
+    <dimen name="padding_settings_end">72dp</dimen>
+    <dimen name="chat_back_size">20dp</dimen>
+</resources>

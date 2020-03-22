@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="java.lang.Integer" />
+
+        <variable
+            name="viewModel"
+            type="com.healthnavigatorapis.portal.chatbot.ui.home.HomeViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/homeLogo"
+            android:layout_width="150dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/ic_logo"
+            app:layout_constraintBottom_toTopOf="@+id/homeActionBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/homeMore"
+            android:layout_width="@dimen/icon_size"
+            android:layout_height="@dimen/icon_size"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/ic_more"
+            android:backgroundTint="@color/colorIconChat"
+            android:onClick="@{() -> viewModel.onSettings()}"
+            app:layout_constraintBottom_toTopOf="@+id/homeActionBar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/homeActionBar"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="?actionBarSize"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/homeUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:text='@{@string/home_name + viewModel.user.name}'
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeActionBar" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/homeUserAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text='@{@string/home_age + Integer.toString(viewModel.user.age)}'
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeUserName" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/homeUserGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text='@{@string/home_sex + viewModel.user.gender}'
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toEndOf="@+id/homeUserAge"
+            app:layout_constraintTop_toTopOf="@+id/homeUserAge" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/homeUserBloodGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="O+"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toEndOf="@+id/homeUserID"
+            app:layout_constraintTop_toTopOf="@+id/homeUserID" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/homeUserID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/home_blood_group"
+            android:textColor="@android:color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeUserAge" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/homeUserPhoto"
+            android:layout_width="@dimen/logo_bottom_size"
+            android:layout_height="@dimen/logo_bottom_size"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/ic_rouded"
+            android:src="@drawable/ic_user"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/homeUserName" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/homeProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#0aac4f"
+            android:onClick="@{() -> viewModel.onProfile()}"
+            android:text="@string/home_my_profile"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeUserPhoto" />
+
+
+        <View
+            android:id="@+id/homeRecommendationBackground"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="#f2f2f2"
+            app:layout_constraintBottom_toTopOf="@+id/homeRecommendationDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/homeUserDivider" />
+
+        <View
+            android:id="@+id/homeUserDivider"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@+id/homeProfile" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/homeHospital"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_hospital"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/homeUserDivider" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/homeHospitalRecommendation"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/health_recommendation"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/homeRecommendationDivider"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/homeHospital"
+            app:layout_constraintTop_toBottomOf="@+id/homeUserDivider" />
+
+        <View
+            android:id="@+id/homeRecommendationDivider"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray"
+            app:layout_constraintTop_toBottomOf="@+id/homeHospital" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/homeHealth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/border_home_button"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_conservation"
+            android:focusable="true"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:onClick="@{() -> viewModel.onAskQuestions()}"
+            android:paddingStart="@dimen/padding_health_start"
+            android:paddingEnd="@dimen/padding_health_end"
+            android:text="@string/home_ask_health"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/home_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/homeSymptoms"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeRecommendationDivider"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/homeSymptoms"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/border_home_button"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_bacteria"
+            android:focusable="true"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:onClick="@{() -> viewModel.onSymptomsCheck()}"
+            android:paddingStart="@dimen/padding_symptoms_start"
+            android:paddingEnd="@dimen/padding_symptoms_end"
+            android:text="@string/home_symptoms"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/home_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/homeUtilities"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeHealth" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/homeUtilities"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:background="@drawable/border_home_button"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_smartphone"
+            android:focusable="true"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:onClick="@{() -> viewModel.onUtilities()}"
+            android:paddingStart="@dimen/padding_utilities_start"
+            android:paddingEnd="@dimen/padding_utilities_end"
+            android:text="@string/home_utilities"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/home_text_size"
+            app:layout_constraintBottom_toTopOf="@+id/homeSettings"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeSymptoms" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/homeSettings"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/border_home_button"
+            android:clickable="true"
+            android:drawableStart="@drawable/ic_gear"
+            android:focusable="true"
+            android:foreground="?selectableItemBackgroundBorderless"
+            android:onClick="@{() -> viewModel.onAboutSettings()}"
+            android:paddingStart="@dimen/padding_settings_start"
+            android:paddingEnd="@dimen/padding_settings_end"
+            android:text="@string/home_settings"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/home_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeUtilities"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
